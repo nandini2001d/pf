@@ -109,7 +109,7 @@ export default function Home() {
             <div className="card">
               <div className="card-body">
                 <img
-                  src="img/clg1.jpeg"
+                  src="img/clg2.jpeg"
                   style={{ height: "360px", width: "100%" }}
                 />
               </div>
