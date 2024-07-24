@@ -70,8 +70,8 @@ export default function Home() {
                   <img
                     src="/img/nandini-image.jpeg"
                     style={{
-                      height: "320px",
-                      width: "58%",
+                      maxHeighth: "100%",
+                      maxWidth: "100%",
                       borderRadius: "50%",
                     }}
                   />
@@ -100,45 +100,42 @@ export default function Home() {
               </Link>
             </div>
           </div>
-
-          <div className="col-lg-6 col-sm-12 text-center mt-5">
-
-          <AnimatedOnScroll
-                animationIn="bounceInLeft"
-            >
-
-             <div className="card">
-              <div className="card-body">
-                <img
-                  src="img/clg1.jpeg"
-                  style={{ height: "360px", width: "100%" }}
-                />
-              </div>
-            </div>
-               
-            </AnimatedOnScroll>
-          
-          </div>
-
-          <div className="col-lg-6 col-sm-12 text-center mt-5">
-          <AnimatedOnScroll
-                animationIn="bounceInLeft"
-            >
-
-             <div className="card">
-              <div className="card-body">
-                <img
-                  src="img/clg2.jpeg"
-                  style={{ height: "360px", width: "100%" }}
-                />
-              </div>
-            </div>
-               
-            </AnimatedOnScroll>
-          </div>
-
         </div>
       </div>
+
+      <section>
+           <div className="row">
+           <div className="col-lg-6 col-sm-12 text-center mt-5" style={{maxWidth:"100%",padding:"0",margin:"0",objectFit:"contain"}}>
+
+<AnimatedOnScroll
+      animationIn="bounceInLeft"
+  >  
+      <img
+        src="img/clg1.jpeg"
+        style={{ maxHeight: "100%", maxWidth: "100%" ,objectFit:"cover"}}
+      />
+    
+     
+  </AnimatedOnScroll>
+
+</div>
+
+<div className="col-lg-6 col-sm-12 text-center mt-5" style={{maxWidth:"100%",padding:"0",margin:"0",objectFit:"contain"}}>
+
+<AnimatedOnScroll
+      animationIn="bounceInLeft"
+  >  
+      <img
+        src="img/clg2.jpeg"
+        style={{ maxHeight: "100%", maxWidth: "100%" ,objectFit:"cover"}}
+      />
+    
+     
+  </AnimatedOnScroll>
+
+</div>
+           </div>
+      </section>
        
        <Qualifications/>
 

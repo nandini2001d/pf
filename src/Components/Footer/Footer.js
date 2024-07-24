@@ -22,33 +22,29 @@ export default function Footer() {
    
    <div className='container-fluid p-4 text-center' style={{backgroundColor:"black"}}>
       
-      <div className='row mt-5'>
+      <div className='row mt-5 text-center'>
                   
-                  <div className='col-6 offset-lg-3 offset-sm-3 offset-md-3 offset-4'>
+                  <div className='mt-3 mb-4 text-center'>
                              
-                        <span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='mailto:deshpanden2001@gmail.com '
-                        className='' style={{fontSize:"25px"}}><IoMail/></Link></span>
 
-<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://www.linkedin.com/feed/?nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSr2pNgI8RoObqA%2BVRadxPA%3D%3D'
-                        className='' style={{fontSize:"25px"}}><FaLinkedin/></Link></span>
-
-<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://github.com/nandini2001d/'
-                        className='' style={{fontSize:"25px"}}><FaGithub/></Link></span>
-
-<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://www.instagram.com/_its__nandini_?igsh=MWNodzRoa2k3OGx3dw== '
-                        className='' style={{fontSize:"25px"}}><FaInstagramSquare/></Link></span>
-
-<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://www.facebook.com/nandini.deshpande.330?mibextid=ZbWKwL '
-                        className='' style={{fontSize:"25px"}}><FaFacebook/></Link></span>
-
+<span><Link to='mailto:deshpanden2001@gmail.com '
+                        className='mx-3' style={{fontSize:"25px"}}><IoMail/></Link>
+<Link to='https://www.linkedin.com/feed/?nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSr2pNgI8RoObqA%2BVRadxPA%3D%3D'
+                        className='mx-3' style={{fontSize:"25px"}}><FaLinkedin/></Link>
+                    <Link to='https://github.com/nandini2001d/'
+                        className='mx-3' style={{fontSize:"25px"}}><FaGithub/></Link>
+                    <Link to='https://www.instagram.com/_its__nandini_?igsh=MWNodzRoa2k3OGx3dw== '
+                        className='mx-3' style={{fontSize:"25px"}}><FaInstagramSquare/></Link>
+                    <Link to='https://www.facebook.com/nandini.deshpande.330?mibextid=ZbWKwL '
+                        className='mx-3' style={{fontSize:"25px"}}><FaFacebook/></Link></span>
                        
                   </div>
 
-                  <div className='copyright mt-5'>
+                  <div className='copyright mt-5 text-center'>
                       <p style={{color:"darkgrey",marginTop:"30px"}}><TbCopyright style={{fontSize:"18px"}}/> 2024 ALL RIGHTS RESERVED <span className='text-white' style={{fontWeight:"bold",borderBottom:"1px solid white"}}> NANDINI DESHPANDE</span></p>
                   </div>
 
-                  <div className='mt-3 mb-4'>
+                  <div className='mt-3 mb-4 text-center'>
                   <span><Link to={"/"} className='mx-3' style={{fontSize:"14px"}}>Home  |  </Link> 
                     <Link to={"/about"} className='mx-3' style={{fontSize:"14px"}}>About  |  </Link> 
                     <Link to={"/projects"} className='mx-3' style={{fontSize:"14px"}} >Projects  |  </Link>
