@@ -68,7 +68,7 @@ export default function Qualifications() {
          <div className='container mt-5'>
               <div className='row text-center mt-3'>
                 <p className='mb-5 mt-3'>QUALIFICATIONS</p>
-                <div className='col-sm-6 col-xs-12 mt-4'>
+                <div className='col-sm-6 col-xs-12 mt-4 col-12'>
                     <div className='card' style={{backgroundColor:"rgb(248, 245, 245)",border:"none"}}>
                          <div className='card-body'>
                                <div className='p'>
@@ -83,7 +83,7 @@ export default function Qualifications() {
                          </div>
                     </div>
                 </div>
-                <div className='col-sm-6 col-xs-12 mt-4'>
+                <div className='col-sm-6 col-xs-12 mt-4 col-12'>
                 <div className='card' style={{backgroundColor:"rgb(248, 245, 245)",border:"none"}}>
                          <div className='card-body'>
                                <div className='p'>
@@ -101,7 +101,7 @@ export default function Qualifications() {
                          </div>
                     </div>
                 </div>
-                <div className='col-sm-6 col-xs-12 mt-4'>
+                <div className='col-sm-6 col-xs-12 mt-4 col-12'>
                 <div className='card' style={{backgroundColor:"rgb(248, 245, 245)",border:"none"}}>
                          <div className='card-body'>
                                <div className='p'>
@@ -119,7 +119,7 @@ export default function Qualifications() {
                          </div>
                     </div>
                 </div>
-                <div className='col-sm-6 col-xs-12 mt-4'>
+                <div className='col-sm-6 col-xs-12 mt-4 col-12'>
                 <div className='card' style={{backgroundColor:"rgb(248, 245, 245)",border:"none"}}>
                          <div className='card-body'>
                                <div className='p'>

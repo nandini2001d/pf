@@ -24,22 +24,21 @@ export default function Footer() {
       
       <div className='row mt-5'>
                   
-                  <div className='col-6 offset-3'>
-
-                        
-                        <span className='mx-4'><Link to='mailto:deshpanden2001@gmail.com '
+                  <div className='col-6 offset-lg-3 offset-sm-3 offset-md-3 offset-4'>
+                             
+                        <span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='mailto:deshpanden2001@gmail.com '
                         className='' style={{fontSize:"25px"}}><IoMail/></Link></span>
 
-<span className='mx-4'><Link to='https://www.linkedin.com/feed/?nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSr2pNgI8RoObqA%2BVRadxPA%3D%3D'
+<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://www.linkedin.com/feed/?nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSr2pNgI8RoObqA%2BVRadxPA%3D%3D'
                         className='' style={{fontSize:"25px"}}><FaLinkedin/></Link></span>
 
-<span className='mx-4'><Link to='https://github.com/nandini2001d/'
+<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://github.com/nandini2001d/'
                         className='' style={{fontSize:"25px"}}><FaGithub/></Link></span>
 
-<span className='mx-4'><Link to='https://www.instagram.com/_its__nandini_?igsh=MWNodzRoa2k3OGx3dw== '
+<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://www.instagram.com/_its__nandini_?igsh=MWNodzRoa2k3OGx3dw== '
                         className='' style={{fontSize:"25px"}}><FaInstagramSquare/></Link></span>
 
-<span className='mx-4'><Link to='https://www.facebook.com/nandini.deshpande.330?mibextid=ZbWKwL '
+<span className='mx-lg-4 mx-sm-4 mx-md-4 mx-3'><Link to='https://www.facebook.com/nandini.deshpande.330?mibextid=ZbWKwL '
                         className='' style={{fontSize:"25px"}}><FaFacebook/></Link></span>
 
                        

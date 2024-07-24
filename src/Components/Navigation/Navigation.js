@@ -46,13 +46,12 @@ export default function Navigation() {
         }
 
       </ul>
-
-      <form className="d-flex">
+    </div>
+    <form className="d-flex">
         <Link  to="https://github.com/nandini2001d/ " className='mx-3 n' style={{fontSize:"22px"}}><FaGithub /></Link>
         <Link  to="https://www.linkedin.com/feed/?nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSr2pNgI8RoObqA%2BVRadxPA%3D%3D" className='mx-3 n' style={{fontSize:"22px"}}><FaLinkedin /></Link>
         <Link  to="mailto:deshpanden2001@gmail.com" className='mx-3 n' style={{fontSize:"22px"}}><IoMailOpen /></Link>
       </form>
-    </div>
   </div>
 </nav>
 
