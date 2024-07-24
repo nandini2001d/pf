@@ -61,24 +61,36 @@
     }
 
   }
-  @media screen and (max-width: 366px){
+  @media screen and (max-width: 608px){
 
     .content h2{
-        font-size: 80px;
+        font-size: 85px;
+        margin-top: 80px;
     }
 
   }
-  @media screen and (max-width: 552px){
+  @media screen and (max-width: 274px){
 
     .content h2{
-         margin-top: 40px;
+         margin-top: 110px;
+         font-size: 75px;
     }
 
+  }
+  
 
+
+.t{
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 615px){
+
+  .t{
+       margin-top: 200px;
   }
 
-
-
+}
 
   .t h4 {
     transform: scale(0.94);
@@ -122,3 +134,9 @@
       filter: blur(0);
     }
   }
+
+  .main-card{
+    box-shadow:1px 2px 2px rgb(186, 185, 185) ;
+    
+  }
+

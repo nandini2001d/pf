@@ -2,6 +2,11 @@ import React from "react";
 import Navigation from "../Navigation/Navigation";
 import "../Home/Home.css";
 import { Link } from "react-router-dom";
+import Qualifications from "./Qualifications/Qualifications";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
+import Technology from "./Technology/Technology";
+import Projects from "./Projects/Projects";
+import Footer from "../Footer/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +15,7 @@ export default function Home() {
       <Navigation />
       {/* navigation ends */}
 
+      <section style={{backgroundColor:"rgb(248, 245, 245)",paddingBottom:"130px"}}>
       <div className="custom" style={{ marginTop: "100px" }}>
         <svg
           data-name="Layer 1"
@@ -34,7 +40,7 @@ export default function Home() {
         </svg>
       </div>
 
-      <div className="container" style={{ marginTop: "150px" }}>
+      <div className="container" style={{ marginTop: "150px"}}>
         <div className="row text-center">
           <div className="col-md-12 text-center">
             {/* <h1 style={{fontWeight:"bold",fontSize:"60px"}}>hello !</h1> */}
@@ -42,19 +48,19 @@ export default function Home() {
               <h2>hello !</h2>
               <h2>hello !</h2>
             </div>
-            <div style={{ marginTop: "180px" }} className="t">
+            <div className="t">
               <h4>
-                <span> Welcome </span> <span> to </span> <span> my </span>{" "}
-                <span> word </span> <span> !!!! </span>
-              </h4>{" "}
+                <span> Welcome </span> <span> to </span> <span> my </span> <span> word </span> <span> !!!! </span>
+              </h4>
               <hr />
             </div>
           </div>
         </div>
       </div>
+      </section>
 
-      <div className="container mt-5">
-        <div className="row mt-5">
+      <div className="container">
+        <div className="row">
           <p className="text-center mt-5">ABOUT ME</p>
 
           <div className="col-lg-6 col-sm-12 text-center">
@@ -64,8 +70,8 @@ export default function Home() {
                   <img
                     src="/img/nandini-image.jpeg"
                     style={{
-                      height: "350px",
-                      width: "60%",
+                      height: "320px",
+                      width: "58%",
                       borderRadius: "50%",
                     }}
                   />
@@ -96,7 +102,12 @@ export default function Home() {
           </div>
 
           <div className="col-lg-6 col-sm-12 text-center mt-5">
-            <div className="card">
+
+          <AnimatedOnScroll
+                animationIn="bounceInLeft"
+            >
+
+             <div className="card">
               <div className="card-body">
                 <img
                   src="img/clg1.jpeg"
@@ -104,9 +115,17 @@ export default function Home() {
                 />
               </div>
             </div>
+               
+            </AnimatedOnScroll>
+          
           </div>
+
           <div className="col-lg-6 col-sm-12 text-center mt-5">
-            <div className="card">
+          <AnimatedOnScroll
+                animationIn="bounceInLeft"
+            >
+
+             <div className="card">
               <div className="card-body">
                 <img
                   src="img/clg2.jpeg"
@@ -114,9 +133,21 @@ export default function Home() {
                 />
               </div>
             </div>
+               
+            </AnimatedOnScroll>
           </div>
+
         </div>
       </div>
+       
+       <Qualifications/>
+
+       <Technology/>
+
+       <Projects/>
+
+       <Footer/>
+
     </>
   );
 }

@@ -6,4 +6,12 @@ a.active{
 a{
     font-weight: bold;
     font-size: 18px;
+
+}
+.d-flex a.n{
+ color: rgb(85, 84, 84);
+ font-weight: bold;
+}
+.d-flex a.n:hover{
+    color: black;
 }
