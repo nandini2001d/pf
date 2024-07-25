@@ -1,0 +1,11 @@
+.ab a{
+    color: white;
+}
+a:hover{
+    color: rgb(116, 116, 236);
+}
+*{
+    max-width: 100%;
+}
+
+

@@ -26,7 +26,7 @@ export default function Navigation() {
     <>
         {/* naviagtion starts */}
 
-  <nav className="navbar navbar-expand-lg navbar-light pb-3" style={{backgroundColor:"white",boxShadow:"2px 2px 3px rgba(201, 197, 197, 0.881)",top:"0",position:"fixed",width:"100%",zIndex:"1000",height:"95px"}}>
+  <nav className="navbar navbar-expand-lg navbar-light pb-3" style={{backgroundColor:"white",boxShadow:"2px 2px 3px rgba(201, 197, 197, 0.881)",top:"0",right:"0",position:"fixed",width:"100%",zIndex:"1000",height:"95px"}}>
   <div className="container-fluid">
     <Link className="navbar-brand" to="#"><img src="/img/logo3.jpeg" style={{height:"54px", marginRight:"40px"}}/></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

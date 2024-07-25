@@ -120,7 +120,7 @@ export default function Home() {
 
 </div>
 
-<div className="col-lg-6 col-sm-12 text-center mt-5" style={{maxWidth:"100%",padding:"0",margin:"0",objectFit:"contain"}}>
+<div className="col-lg-6 col-sm-12 text-center mt-lg-5 mt-3" style={{maxWidth:"100%",padding:"0",margin:"0",objectFit:"contain"}}>
 
 <AnimatedOnScroll
       animationIn="bounceInLeft"
