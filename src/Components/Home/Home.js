@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "../Navigation/Navigation";
 import "../Home/Home.css";
 import { Link } from "react-router-dom";
@@ -9,6 +9,9 @@ import Projects from "./Projects/Projects";
 import Footer from "../Footer/Footer";
 
 export default function Home() {
+  useEffect(()=>{
+          window.scroll(0,0)
+  },[])
   return (
     <>
       {/* navigation starts */}

@@ -58,6 +58,7 @@ export default function About() {
   const [progress7, setProgress7] = React.useState(1920);
 
   React.useEffect(() => {
+    window.scroll(0,0);
     const timer = setInterval(() => {
       setProgress((prevProgress) =>
         prevProgress >= 80 ? 80 : prevProgress + 4
@@ -100,7 +101,8 @@ export default function About() {
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
-          data-bs-ride="carousel"
+          data-interval="500"
+          data-ride="carousel"
         >
           <div class="carousel-indicators">
             <button
