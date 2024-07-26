@@ -364,7 +364,7 @@ export default function About() {
                 <GoGoal style={{ fontSize: "35px" }} />
                 <h5 className="mt-2">Problem Solver</h5>
                 <p style={{ color: "gray" }} className="mt-4">
-                  I am person how love's to solve different types of problems as
+                  I am person how love's to solve different types of problems in different ways and
                   after they solved they brings more confidence in myself.
                 </p>
               </div>
@@ -635,7 +635,10 @@ export default function About() {
                    <p> <span style={{color:"black",textTransform:"uppercase",borderBottom:"1px solid black"}}> Author : Nandini Deshpande</span> </p>
                     
                  
+                   <AnimatedOnScroll animationIn="bounceInLeft">
                    <Link to={"https://ssgmjournal.in"} className="m mb-5">Go to page <FaExternalLinkAlt/></Link>
+                   </AnimatedOnScroll>
+                  
                 
                    
                     
