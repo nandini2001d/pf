@@ -2,10 +2,16 @@
     color: white;
 }
 a:hover{
-    color: rgb(116, 116, 236);
+    color: rgb(91, 91, 196);
 }
 *{
     max-width: 100%;
 }
 
 
+.m{
+  color:rgb(97, 97, 193);
+}
+.m:hover{
+  color: blue;
+}

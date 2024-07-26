@@ -47,10 +47,12 @@ export default function Home() {
         <div className="row text-center">
           <div className="col-md-12 text-center">
             {/* <h1 style={{fontWeight:"bold",fontSize:"60px"}}>hello !</h1> */}
-            <div className="content">
+         <AnimatedOnScroll animationIn="fadeInDownBig">
+         <div className="content">
               <h2>hello !</h2>
               <h2>hello !</h2>
             </div>
+         </AnimatedOnScroll>
             <div className="t">
               <h4>
                 <span> Welcome </span> <span> to </span> <span> my </span> <span> word </span> <span> !!!! </span>

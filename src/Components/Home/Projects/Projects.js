@@ -2,7 +2,8 @@ import React from "react";
 import { IoCall, IoMailOpen } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import '../Projects/Project.css'
-import { FaArrowCircleUp, FaLink } from "react-icons/fa";
+import { FaArrowCircleUp, FaExternalLinkAlt, FaLink } from "react-icons/fa";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 export default function Projects() {
   return (
@@ -19,9 +20,11 @@ export default function Projects() {
                 <img src="img/hotelp.png" />
                 <br />
                 <br />
+                <AnimatedOnScroll animationIn="bounceInLeft">
                 <Link to="https://with-nandini-hotel.netlify.app/ "className="a" >
-                  Go to website <FaLink/>
+                Go to page <FaExternalLinkAlt/>
                 </Link>
+                </AnimatedOnScroll>
               </div>
             </div>
           </div>
@@ -33,9 +36,11 @@ export default function Projects() {
                 <img src="img/cal.png" style={{ height: "35px" }} />
                 <br />
                 <br />
-                <Link to="https://with-nandini-calculator.netlify.app/ " className="a">
-                  Go to website <FaLink/>
+               <AnimatedOnScroll animationIn="bounceInLeft">
+               <Link to="https://with-nandini-calculator.netlify.app/ " className="a">
+                Go to page <FaExternalLinkAlt/>
                 </Link>
+               </AnimatedOnScroll>
               </div>
             </div>
           </div>
@@ -46,9 +51,11 @@ export default function Projects() {
                 <img src="img/foodgrill.png" />
                 <br />
                 <br />
-                <Link to="https://with-nandini-food.netlify.app/ " className="a">
-                  Go to website <FaLink/>
+               <AnimatedOnScroll animationIn="bounceInLeft">
+               <Link to="https://with-nandini-food.netlify.app/ " className="a">
+                Go to page <FaExternalLinkAlt/>
                 </Link>
+               </AnimatedOnScroll>
               </div>
             </div>
           </div>
@@ -59,9 +66,11 @@ export default function Projects() {
                 <img src="img/coffee.png" />
                 <br />
                 <br />
-                <Link to="https://with-nandini-coffee.netlify.app/" className="a">
-                  Go to website <FaLink/>
+               <AnimatedOnScroll animationIn="bounceInLeft">
+               <Link to="https://with-nandini-coffee.netlify.app/" className="a">
+                  Go to page <FaExternalLinkAlt/>
                 </Link>
+               </AnimatedOnScroll>
               </div>
             </div>
           </div>
