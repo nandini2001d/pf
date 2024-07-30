@@ -19,7 +19,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 import Footer from "../Footer/Footer";
 
 function LinearProgressWithLabel(props) {
@@ -61,7 +61,7 @@ export default function About() {
   const [progress7, setProgress7] = React.useState(1900);
 
   React.useEffect(() => {
-    window.scroll(0,0);
+    window.scroll(0, 0);
     const timer = setInterval(() => {
       setProgress((prevProgress) =>
         prevProgress >= 80 ? 80 : prevProgress + 2
@@ -101,66 +101,74 @@ export default function About() {
       {/* navigation ends */}
 
       <section>
-           
-      <Carousel>
-      <Carousel.Item interval={1000} style={{ width: "100%", height: "100vh" }}>
-      <img
-                src="/img/p1.jpeg"
-                class="d-block"
-                alt="..."
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  display: "block",
-                  objectFit: "cover",
-                }}
-              />
-      
-      </Carousel.Item>
-      <Carousel.Item interval={1000} style={{ width: "100%", height: "100vh" }}>
-      <img
-                src="/img/p2.jpeg"
-                class="d-block"
-                alt="..."
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  display: "block",
-                  objectFit: "cover",
-                }}
-              />
-      
-      </Carousel.Item>
-      <Carousel.Item interval={1000} style={{ width: "100%", height: "100vh" }}>
-      <img
-                src="/img/p3.jpeg"
-                class="d-block"
-                alt="..."
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  display: "block",
-                  objectFit: "cover",
-                }}
-              />
-      </Carousel.Item>
-      <Carousel.Item interval={1000} style={{ width: "100%", height: "100vh" }}>
-      <img
-                src="/img/p4.jpeg"
-                class="d-block"
-                alt="..."
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  display: "block",
-                  objectFit: "cover",
-                }}
-              />
-      </Carousel.Item>
-    </Carousel>
+        <Carousel>
+          <Carousel.Item
+            interval={1000}
+            style={{ width: "100%", height: "100vh" }}
+          >
+            <img
+              src="/img/p1.jpeg"
+              class="d-block"
+              alt="..."
+              style={{
+                width: "100%",
+                height: "100%",
+                display: "block",
+                objectFit: "cover",
+              }}
+            />
+          </Carousel.Item>
+          <Carousel.Item
+            interval={1000}
+            style={{ width: "100%", height: "100vh" }}
+          >
+            <img
+              src="/img/p2.jpeg"
+              class="d-block"
+              alt="..."
+              style={{
+                width: "100%",
+                height: "100%",
+                display: "block",
+                objectFit: "cover",
+              }}
+            />
+          </Carousel.Item>
+          <Carousel.Item
+            interval={1000}
+            style={{ width: "100%", height: "100vh" }}
+          >
+            <img
+              src="/img/p3.jpeg"
+              class="d-block"
+              alt="..."
+              style={{
+                width: "100%",
+                height: "100%",
+                display: "block",
+                objectFit: "cover",
+              }}
+            />
+          </Carousel.Item>
+          <Carousel.Item
+            interval={1000}
+            style={{ width: "100%", height: "100vh" }}
+          >
+            <img
+              src="/img/p4.jpeg"
+              class="d-block"
+              alt="..."
+              style={{
+                width: "100%",
+                height: "100%",
+                display: "block",
+                objectFit: "cover",
+              }}
+            />
+          </Carousel.Item>
+        </Carousel>
 
-
-{/* 
+        {/* 
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -323,72 +331,64 @@ export default function About() {
       >
         <div className="row main-row">
           <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4">
-           <AnimatedOnScroll animationIn="bounceInLeft">
-                
-           <div className="card text-center main-card p-2">
-              <div className="card-body main-body">
-                <SiAwselasticloadbalancing style={{ fontSize: "35px" }} />
-                <h5 className="mt-2">Creative Person</h5>
-                <p style={{ color: "gray" }} className="mt-4">
-                  I have ability to be orignal, to be innovative, to conceive of
-                  concepts, to make concepts concrete, and to be flexible in
-                  thinking and working.
-                </p>
-              </div>
-            </div>
-
-           </AnimatedOnScroll>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4">
             <AnimatedOnScroll animationIn="bounceInLeft">
-               
-            <div className="card text-center main-card p-2">
-              <div className="card-body main-body">
-                <FaBook style={{ fontSize: "35px" }} />
-                <h5 className="mt-2">Quick Learner</h5>
-                <p style={{ color: "gray" }} className="mt-4">
-                  I am a quick learner, and so I like to learn new things,new
-                  technologies, and also I have ability to do work in
-                  simultaneously.
-                </p>
+              <div className="card text-center main-card p-2">
+                <div className="card-body main-body">
+                  <SiAwselasticloadbalancing style={{ fontSize: "35px" }} />
+                  <h5 className="mt-2">Creative Person</h5>
+                  <p style={{ color: "gray" }} className="mt-4">
+                    I have ability to be orignal, to be innovative, to conceive
+                    of concepts, to make concepts concrete, and to be flexible
+                    in thinking and working.
+                  </p>
+                </div>
               </div>
-            </div>
-
             </AnimatedOnScroll>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4">
-          <AnimatedOnScroll animationIn="bounceInLeft">
-
-          <div className="card text-center main-card p-2">
-              <div className="card-body main-body">
-                <GoGoal style={{ fontSize: "35px" }} />
-                <h5 className="mt-2">Problem Solver</h5>
-                <p style={{ color: "gray" }} className="mt-4">
-                  I am person how love's to solve different types of problems in different ways and
-                  after they solved they brings more confidence in myself.
-                </p>
+            <AnimatedOnScroll animationIn="bounceInLeft">
+              <div className="card text-center main-card p-2">
+                <div className="card-body main-body">
+                  <FaBook style={{ fontSize: "35px" }} />
+                  <h5 className="mt-2">Quick Learner</h5>
+                  <p style={{ color: "gray" }} className="mt-4">
+                    I am a quick learner, and so I like to learn new things,new
+                    technologies, and also I have ability to do work in
+                    simultaneously.
+                  </p>
+                </div>
               </div>
-            </div>
-
-          </AnimatedOnScroll>
-
+            </AnimatedOnScroll>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4">
+            <AnimatedOnScroll animationIn="bounceInLeft">
+              <div className="card text-center main-card p-2">
+                <div className="card-body main-body">
+                  <GoGoal style={{ fontSize: "35px" }} />
+                  <h5 className="mt-2">Problem Solver</h5>
+                  <p style={{ color: "gray" }} className="mt-4">
+                    I am person how love's to solve different types of problems
+                    in different ways and after they solved they brings more
+                    confidence in myself.
+                  </p>
+                </div>
+              </div>
+            </AnimatedOnScroll>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4 ">
-              <AnimatedOnScroll animationIn="bounceInLeft">
-                 
+            <AnimatedOnScroll animationIn="bounceInLeft">
               <div className="card text-center main-card p-2">
-              <div className="card-body main-body">
-                <FaChessKing style={{ fontSize: "35px" }} />
-                <h5 className="mt-2">Pillar</h5>
-                <p style={{ color: "gray" }} className="mt-4">
-                  I have leadership qualify which makes me group leader in my
-                  collage life and, I very well managed my team and, achive
-                  success.
-                </p>
+                <div className="card-body main-body">
+                  <FaChessKing style={{ fontSize: "35px" }} />
+                  <h5 className="mt-2">Pillar</h5>
+                  <p style={{ color: "gray" }} className="mt-4">
+                    I have leadership qualify which makes me group leader in my
+                    collage life and, I very well managed my team and, achive
+                    success.
+                  </p>
+                </div>
               </div>
-            </div>
-
-              </AnimatedOnScroll>
+            </AnimatedOnScroll>
           </div>
         </div>
       </div>
@@ -547,7 +547,9 @@ export default function About() {
 
       {/* education */}
 
-      <section style={{ backgroundColor: "rgb(248, 245, 245)" ,paddingBottom:"20px"}}>
+      <section
+        style={{ backgroundColor: "rgb(248, 245, 245)", paddingBottom: "20px" }}
+      >
         <div className="container mt-5 main-container mb-5">
           <div className="row mt-5 main-row">
             <p className="mb-5 text-center">PASS OUT YEARS</p>
@@ -626,29 +628,45 @@ export default function About() {
 
       <div className="container mt-5 mb-5">
         <div className="row mt-3">
-               <div className="col-12 text-center">
-                    <h6 className="mb-5 mt-3">PAPER PUBLICATION - (Review Paper) </h6>
-                    <p>------------Design of a water & soil classification model for satellite images via the machine learning process.</p>
-                    <p style={{color:"gray"}}>Vol. 1 No. 1 (2023) : Proceedings of INSCIRD- 2023 </p>
-                    <p style={{color:"gray"}}><span style={{color:"black"}}>Published :</span> 2023-07-03</p>
-                    <p style={{color:"gray"}}><span style={{color:"black"}}>Page no. :</span>  25-28</p>
-                   <p> <span style={{color:"black",textTransform:"uppercase",borderBottom:"1px solid black"}}> Author : Nandini Deshpande</span> </p>
-                    
-                 
-                   <AnimatedOnScroll animationIn="bounceInLeft">
-                   <Link to={"https://ssgmjournal.in"} className="m mb-5">Go to page <FaExternalLinkAlt/></Link>
-                   </AnimatedOnScroll>
-                  
-                
-                   
-                    
+          <div className="col-12 text-center">
+            <h6 className="mb-5 mt-3">PAPER PUBLICATION - (Review Paper) </h6>
+            <p>
+              ------------Design of a water & soil classification model for
+              satellite images via the machine learning process.
+            </p>
+            <p style={{ color: "gray" }}>
+              Vol. 1 No. 1 (2023) : Proceedings of INSCIRD- 2023{" "}
+            </p>
+            <p style={{ color: "gray" }}>
+              <span style={{ color: "black" }}>Published :</span> 2023-07-03
+            </p>
+            <p style={{ color: "gray" }}>
+              <span style={{ color: "black" }}>Page no. :</span> 25-28
+            </p>
+            <p>
+              {" "}
+              <span
+                style={{
+                  color: "black",
+                  textTransform: "uppercase",
+                  borderBottom: "1px solid black",
+                }}
+              >
+                {" "}
+                Author : Nandini Deshpande
+              </span>{" "}
+            </p>
 
-               </div>
+            <AnimatedOnScroll animationIn="bounceInLeft">
+              <Link to={"https://ssgmjournal.in"} className="m mb-5">
+                Go to page <FaExternalLinkAlt />
+              </Link>
+            </AnimatedOnScroll>
+          </div>
         </div>
-        </div> 
+      </div>
 
-        <Footer/>
-
+      <Footer />
     </>
   );
 }
