@@ -29,8 +29,8 @@ export default function Projects() {
             </button>
           </div>
           <div className="col-sm-4 p-2">
-            <button type="submit" className="btn btn-secondary" onClick={()=>{setState('F-B')}}
-               style={state==="F-B"?{backgroundColor:"blue"}:{backgroundColor:"rgb(97, 97, 193)"}}>
+            <button type="submit" className="btn btn-secondary" onClick={()=>{setState('m')}}
+               style={state==="m"?{backgroundColor:"blue"}:{backgroundColor:"rgb(97, 97, 193)"}}>
               Frontend+Backend{" "}
             </button>
           </div>
@@ -39,7 +39,7 @@ export default function Projects() {
 
       {
                 
-                state==='F'?      
+                state==='F'&&   
                 <div className="container mt-5 main-container">
                 <div className="row main-row">
                   <div className="col-lg-6 main-col mt-4">
@@ -109,16 +109,17 @@ export default function Projects() {
                         </p>
         
                         <video
-                          controls
-                          height="328"
-                          width="100%"
-                          style={{ objectFit: "cover" }}
-                          className="mb-3"
-                          autoPlay
-                        >
-                          <source src="/ved/calculatorr.mp4" type="video/mp4"></source>
-                          <p>You can see this project video here </p>
-                        </video>
+                        controls
+                        height="328"
+                        width="100%"
+                        style={{ objectFit: "cover" }}
+                        className="mb-3"
+                        autoPlay
+                      >
+                        <source src="/ved/calculatorr.mp4" type="video/mp4"></source>
+                        <p>You can see this project video here </p>
+                      </video>
+                      
         
                         <AnimatedOnScroll animationIn="bounceInLeft">
                           <Link
@@ -220,8 +221,9 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-              :
-              state==='B'?    
+}
+{
+              state==='B'&&   
                <div className="container mt-5 main-container">
               <div className="row main-row">
                 <div className="col-lg-6 main-col  mt-4">
@@ -328,8 +330,10 @@ export default function Projects() {
     
               </div>
             </div>
-            :
-            ""
+}
+{
+            state==="m"&&
+            <p>nonbe</p>
 
       }
 
