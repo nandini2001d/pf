@@ -69,6 +69,7 @@ export default function Projects() {
                           width="100%"
                           style={{ objectFit: "cover" }}
                           className="mb-3"
+                          autoPlay
                         >
                           <source src="/ved/hotelr.mp4" type="video/mp4"></source>
                           <p>You can see this project video here </p>
@@ -113,6 +114,7 @@ export default function Projects() {
                           width="100%"
                           style={{ objectFit: "cover" }}
                           className="mb-3"
+                          autoPlay
                         >
                           <source src="/ved/calculatorr.mp4" type="video/mp4"></source>
                           <p>You can see this project video here </p>
@@ -156,6 +158,7 @@ export default function Projects() {
                           width="100%"
                           style={{ objectFit: "cover" }}
                           className="mb-3"
+                          autoPlay
                         >
                           <source src="/ved/foodgrillr.mp4" type="video/mp4"></source>
                           <p>You can see this project video here </p>
@@ -198,6 +201,7 @@ export default function Projects() {
                           width="100%"
                           style={{ objectFit: "cover" }}
                           className="mb-3"
+                          autoPlay
                         >
                           <source src="/ved/coffeer.mp4" type="video/mp4"></source>
                           <p>You can see this project video here </p>
@@ -246,8 +250,9 @@ export default function Projects() {
                         width="100%"
                         style={{ objectFit: "cover" }}
                         className="mb-3"
+                        autoPlay
                       >
-                        <source src="/ved/jobportalr.mp4" type="video/mp4"></source>
+                        <source src="/img/jobportalr.mp4" type="video/mp4"></source>
                         <p>You can see this project video here </p>
                       </video> 
                     </div>
@@ -263,7 +268,7 @@ export default function Projects() {
                       <br />
                     </div>
                     <div className="card-body main-card-body">
-                      <img src="img/phonebbook.png"/>
+                      <img src="/img/phonebbook.png"/>
                       <br />
                       <span style={{ fontSize: "15px ", marginTop: "10px" }}>
                         <span style={{ fontWeight: "bold" }}>TOOLS : </span>  Servlet , JDBC , JSP , Bootstrap , sql{" "}
@@ -271,17 +276,18 @@ export default function Projects() {
                       <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                         <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span> In this website one module is present which is customer module where customer firstly ragister and after registration customer can be login and add new contact and also update contact and its login details also can be update. {" "}
                       </p>
-      
                       <video
-                        controls
-                        height="328"
-                        width="100%"
-                        style={{ objectFit: "cover" }}
-                        className="mb-3"
-                      >
-                        <source src="/ved/addc.mp4" type="video/mp4"></source>
-                        <p>You can see this project video here </p>
-                      </video> 
+                      controls
+                      autoPlay
+                      height="328"
+                      width="100%"
+                      style={{ objectFit: "cover" }}
+                      className="mb-3 m"
+                    >
+                      <source src="/img/addc.mp4" type="video/mp4"
+                      ></source>
+                      <p>You can see this project video here </p>
+                    </video> 
                     </div>
                   </div>
                 </div>
