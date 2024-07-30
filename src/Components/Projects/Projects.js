@@ -220,38 +220,6 @@ export default function Projects() {
               state==='B'?    
                <div className="container mt-5 main-container">
               <div className="row main-row">
-                <div className="col-lg-6 main-col mt-4">
-                  <div className="card main-card">
-                    <div className="card-header text-center">
-                      <span>
-                        <h5>E-Notes</h5>
-                      </span>
-                      <br />
-                    </div>
-                    <div className="card-body main-card-body">
-                      <img src="img/enotesp.png" />
-                      <br />
-                      <span style={{ fontSize: "15px ", marginTop: "10px" }}>
-                        <span style={{ fontWeight: "bold" }}>TOOLS : </span> Spring , Spring MVC , Spring JDBC , JSP , Bootstrap , sql
-                      </span>
-                      <p style={{ fontSize: "15px ", marginTop: "10px" }}>
-                        <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
-                        In this website one module is present which is customer module where customer firstly ragister and after registration customer can be login and add notes and also update notes and its login details also can be update.
-                      </p>
-      
-                      {/* <video
-                        controls
-                        height="350"
-                        width="100%"
-                        style={{ objectFit: "cover" }}
-                        className="mb-3"
-                      >
-                        <source src="/ved/hotelr.mp4" type="video/mp4"></source>
-                        <p>You can see this project video here </p>
-                      </video> */}
-                    </div>
-                  </div>
-                </div>
                 <div className="col-lg-6 main-col  mt-4">
                   <div className="card main-card">
                     <div className="card-header text-center">
@@ -272,7 +240,7 @@ export default function Projects() {
                         In admin module admin can be first login after login it can be added jobs and only active jobs can be seen by the customer and also admin can be update jobs{" "}
                       </p>
       
-                      {/* <video
+                       <video
                         controls
                         height="328"
                         width="100%"
@@ -281,7 +249,7 @@ export default function Projects() {
                       >
                         <source src="/ved/jobportalr.mp4" type="video/mp4"></source>
                         <p>You can see this project video here </p>
-                      </video> */}
+                      </video> 
                     </div>
                   </div>
                 </div>
@@ -314,6 +282,39 @@ export default function Projects() {
                         <source src="/ved/addc.mp4" type="video/mp4"></source>
                         <p>You can see this project video here </p>
                       </video> 
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 main-col mt-4">
+                  <div className="card main-card">
+                    <div className="card-header text-center">
+                      <span>
+                        <h5>E-Notes</h5>
+                      </span>
+                      <br />
+                    </div>
+                    <div className="card-body main-card-body">
+                      <img src="img/enotesp.png" />
+                      <br />
+                      <span style={{ fontSize: "15px ", marginTop: "10px" }}>
+                        <span style={{ fontWeight: "bold" }}>TOOLS : </span> Spring , Spring MVC , Spring JDBC , JSP , Bootstrap , sql
+                      </span>
+                      <p style={{ fontSize: "15px ", marginTop: "10px" }}>
+                        <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
+                        In this website one module is present which is customer module where customer firstly ragister and after registration customer can be login and add notes and also update notes and its login details also can be update.
+                      </p>
+      
+                      {/* <video
+                        controls
+                        height="350"
+                        width="100%"
+                        style={{ objectFit: "cover" }}
+                        className="mb-3"
+                      >
+                        <source src="/ved/hotelr.mp4" type="video/mp4"></source>
+                        <p>You can see this project video here </p>
+                      </video> */}
                     </div>
                   </div>
                 </div>
