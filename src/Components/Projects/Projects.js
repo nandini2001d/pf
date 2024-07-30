@@ -76,7 +76,7 @@ export default function Projects() {
         
                         <AnimatedOnScroll animationIn="bounceInLeft">
                           <Link
-                            to="https://with-nandini-hotel.netlify.app/ "
+                            to="https://with-nandini-hotel.netlify.app/"
                             className="a"
                           >
                             Go to page <FaExternalLinkAlt />
@@ -120,7 +120,7 @@ export default function Projects() {
         
                         <AnimatedOnScroll animationIn="bounceInLeft">
                           <Link
-                            to="https://with-nandini-calculator.netlify.app/ "
+                            to="https://with-nandini-calculator.netlify.app/"
                             className="a"
                           >
                             Go to page <FaExternalLinkAlt />
@@ -161,14 +161,13 @@ export default function Projects() {
                           <p>You can see this project video here </p>
                         </video>
         
-                        <AnimatedOnScroll animationIn="bounceInLeft">
+                      
                           <Link
-                            to="https://with-nandini-food.netlify.app/ "
-                            className="a"
-                          >
+                            to="https://with-nandini-food.netlify.app/"
+                            className="a">
                             Go to page <FaExternalLinkAlt />
                           </Link>
-                        </AnimatedOnScroll>
+                     
                       </div>
                     </div>
                   </div>
@@ -204,14 +203,14 @@ export default function Projects() {
                           <p>You can see this project video here </p>
                         </video>
         
-                        <AnimatedOnScroll animationIn="bounceInLeft">
+                       
                           <Link
                             to="https://with-nandini-coffee.netlify.app/"
                             className="a"
                           >
                             Go to page <FaExternalLinkAlt />
                           </Link>
-                        </AnimatedOnScroll>
+                        
                       </div>
                     </div>
                   </div>
@@ -305,16 +304,16 @@ export default function Projects() {
                         <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span> In this website one module is present which is customer module where customer firstly ragister and after registration customer can be login and add new contact and also update contact and its login details also can be update. {" "}
                       </p>
       
-                      {/* <video
+                      <video
                         controls
                         height="328"
                         width="100%"
                         style={{ objectFit: "cover" }}
                         className="mb-3"
                       >
-                        <source src="/ved/addcontactr.mp4" type="video/mp4"></source>
+                        <source src="/ved/addc.mp4" type="video/mp4"></source>
                         <p>You can see this project video here </p>
-                      </video> */}
+                      </video> 
                     </div>
                   </div>
                 </div>
