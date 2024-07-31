@@ -301,8 +301,8 @@ export default function About() {
 
             <p className="mt-4 text-white">
               Seeking a challenging position with a reputable organization where
-              I can acquire new skills , new technologies , and also used what I
-              learned for growth of organization as well as myself.
+              I can acquire new skills and technologies as well as used my knowledge
+              for the growth of organization as well as myself.
             </p>
 
             <div className="mt-5">
