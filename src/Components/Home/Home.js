@@ -55,7 +55,7 @@ export default function Home() {
          </AnimatedOnScroll>
             <div className="t">
               <h4>
-                <span> Welcome </span> <span> to </span> <span> my </span> <span> word </span> <span> !!!! </span>
+                <span> Welcome </span> <span> to </span> <span> my </span> <span> world </span> <span> !!!! </span>
               </h4>
               <hr />
             </div>

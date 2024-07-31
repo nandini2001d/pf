@@ -431,22 +431,24 @@ export default function About() {
               Accomplished skills
             </p>
             <div className="col-12">
-              <p
+            <span>
+            <p
                 style={{
                   fontSize: "0.9rem",
                   marginBottom: "60px",
                   color: "gray",
                 }}
               >
-                ------------------I want to improve my knowledge about different
+                I want to improve my knowledge about different
                 technologies, fronted laugauge, background laugauge, libraries,
                 frameworks and also other skills and used these skills for
                 significantly growth as a programmer.
               </p>
+            </span>
 
               <div className="data mb-4">
                 <AnimatedOnScroll animationIn="bounceInLeft">
-                  <h6>FRONTED TECHNOLOGIES</h6>
+                  <h6>FRONTEND TECHNOLOGIES</h6>
                 </AnimatedOnScroll>
                 <Box sx={{ width: "100%" }}>
                   <LinearProgressWithLabel value={progress} />
@@ -630,10 +632,12 @@ export default function About() {
         <div className="row mt-3">
           <div className="col-12 text-center">
             <h6 className="mb-5 mt-3">PAPER PUBLICATION - (Review Paper) </h6>
+            <span>
             <p>
-              ------------Design of a water & soil classification model for
+              Design of a water & soil classification model for
               satellite images via the machine learning process.
             </p>
+            </span>
             <p style={{ color: "gray" }}>
               Vol. 1 No. 1 (2023) : Proceedings of INSCIRD- 2023{" "}
             </p>
