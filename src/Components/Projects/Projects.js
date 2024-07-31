@@ -3,7 +3,7 @@ import Navigation from "../Navigation/Navigation";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import '../Projects/Projects.css'
+import '../Projects/P.css'
 import Footer from "../Footer/Footer";
 import { IoCall } from "react-icons/io5";
 
@@ -53,7 +53,7 @@ export default function Projects() {
                 
                 state==='F'&&   
                 <div className="container mt-5 main-container">
-                <div className="row main-row" >
+                <div className="row main-row c" >
                   <div className="col-lg-6 main-col mt-4">
                     <div className="card main-card p-2">
                       <div className="card-header text-center">
@@ -248,7 +248,7 @@ export default function Projects() {
 {
               state==='B'&&   
                <div className="container mt-5 main-container">
-              <div className="row main-row" >
+              <div className="row main-row c" >
                 <div className="col-lg-6 main-col  mt-4">
                   <div className="card main-card p-2 p-2 p-2">
                     <div className="card-header text-center">
@@ -366,7 +366,7 @@ export default function Projects() {
 {
             state==="m"&&
             <div className="container mt-5 main-container">
-            <div className="row main-row" >
+            <div className="row main-row c" >
               <div className="col-lg-6 main-col  mt-4">
                 <div className="card main-card p-2 p-2 p-2">
                   <div className="card-header text-center">

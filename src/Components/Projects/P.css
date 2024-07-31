@@ -1,11 +1,11 @@
 
-.main-row{
+.c{
      margin-top: 150px;
 }
 
 @media screen and (max-width: 575px){
 
-    .main-row{
+    .c{
          margin-top: 260px;
     }
   
