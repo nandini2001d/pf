@@ -3,7 +3,7 @@ import { FaCopyright, FaFacebook, FaGithub, FaInstagram, FaInstagramSquare, FaLi
 import { IoMail } from 'react-icons/io5'
 import { SiInstagram } from 'react-icons/si'
 import { Link } from 'react-router-dom'
-import '../Footer/Footer.css'
+import './Footer.css'
 import { MdCopyright } from 'react-icons/md'
 import { TbCopyright } from 'react-icons/tb'
 
