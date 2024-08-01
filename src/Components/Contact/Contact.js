@@ -14,6 +14,10 @@ export default function Contact() {
   const [mobile, setMobile] = useState("");
   const [help, setHelp] = useState("");
 
+  useState(() => {
+    window.scroll(0, 0);
+  },[])
+
   const contactData = async (e) => {
     e.preventDefault();
 
@@ -197,6 +201,6 @@ export default function Contact() {
         ></iframe>
       </section>
     </>
-    
+
   );
 }
