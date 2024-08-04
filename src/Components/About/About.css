@@ -1,18 +1,16 @@
-.ab a{
-    color: white;
+.ab a {
+  color: white;
 }
-a:hover{
-    color: rgb(91, 91, 196);
+a:hover {
+  color: rgb(91, 91, 196);
 }
-*{
-    max-width: 100%;
+* {
+  max-width: 100%;
 }
 
-
-.m{
-  color:rgb(97, 97, 193);
-
+.m {
+  color: rgb(97, 97, 193);
 }
-.m:hover{
+.m:hover {
   color: rgb(60, 60, 163);
 }

@@ -4,15 +4,13 @@ import {
   FaBook,
   FaChessKing,
   FaExternalLinkAlt,
-  FaGit,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
-import { MdMail, MdWbIridescent } from "react-icons/md";
+import { MdMail } from "react-icons/md";
 import "../About/About.css";
 import { GoGoal } from "react-icons/go";
 import { SiAwselasticloadbalancing } from "react-icons/si";
-import ProgressBar from "react-bootstrap/ProgressBar";
 import PropTypes from "prop-types";
 import LinearProgress from "@mui/material/LinearProgress";
 import Typography from "@mui/material/Typography";
@@ -93,7 +91,6 @@ export default function About() {
     };
   }, []);
 
-  const now = 85;
   return (
     <>
       {/* navigation starts */}
@@ -108,8 +105,8 @@ export default function About() {
           >
             <img
               src="/img/p1.jpeg"
-              class="d-block"
-              alt="..."
+              className="d-block"
+              alt="nandini1"
               style={{
                 width: "100%",
                 height: "100%",
@@ -124,8 +121,8 @@ export default function About() {
           >
             <img
               src="/img/p2.jpeg"
-              class="d-block"
-              alt="..."
+              className="d-block"
+              alt="nandini2"
               style={{
                 width: "100%",
                 height: "100%",
@@ -140,8 +137,8 @@ export default function About() {
           >
             <img
               src="/img/p3.jpeg"
-              class="d-block"
-              alt="..."
+              className="d-block"
+              alt="nandini3"
               style={{
                 width: "100%",
                 height: "100%",
@@ -156,8 +153,8 @@ export default function About() {
           >
             <img
               src="/img/p4.jpeg"
-              class="d-block"
-              alt="..."
+              className="d-block"
+              alt="nandini4"
               style={{
                 width: "100%",
                 height: "100%",
@@ -171,16 +168,16 @@ export default function About() {
         {/* 
         <div
           id="carouselExampleCaptions"
-          class="carousel slide"
+          className="carousel slide"
           data-interval="500"
           data-ride="carousel"
         >
-          <div class="carousel-indicators">
+          <div className="carousel-indicators">
             <button
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide-to="0"
-              class="active"
+              className="active"
               aria-current="true"
               aria-label="Slide 1"
             ></button>
@@ -203,25 +200,25 @@ export default function About() {
               aria-label="Slide 4"
             ></button>
           </div>
-          <div class="carousel-inner">
+          <div className="carousel-inner">
             <div
-              class="carousel-item active"
+              className="carousel-item active"
               style={{ width: "100%", height: "100vh" }}
             >
               <img
                 src="/img/p1.jpeg"
-                class="d-block"
+                className="d-block"
                 alt="..."
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div
-              class="carousel-item"
+              className="carousel-item"
               style={{ width: "100%", height: "100vh" }}
             >
               <img
                 src="/img/p2.jpeg"
-                class="d-block"
+                className="d-block"
                 alt="..."
                 style={{
                   width: "100%",
@@ -232,12 +229,12 @@ export default function About() {
               />
             </div>
             <div
-              class="carousel-item"
+              className="carousel-item"
               style={{ width: "100%", height: "100vh" }}
             >
               <img
                 src="/img/p3.jpeg"
-                class="d-block"
+                className="d-block"
                 alt="..."
                 style={{
                   width: "100%",
@@ -248,12 +245,12 @@ export default function About() {
               />
             </div>
             <div
-              class="carousel-item"
+              className="carousel-item"
               style={{ width: "100%", height: "100vh" }}
             >
               <img
                 src="/img/p4.jpeg"
-                class="d-block"
+                className="d-block"
                 alt="..."
                 style={{
                   width: "100%",
@@ -265,22 +262,22 @@ export default function About() {
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            className="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div> */}
       </section>
@@ -301,8 +298,8 @@ export default function About() {
 
             <p className="mt-4 text-white">
               Seeking a challenging position with a reputable organization where
-              I can acquire new skills and technologies as well as used my knowledge
-              for the growth of organization as well as myself.
+              I can acquire new skills and technologies as well as used my
+              knowledge for the growth of organization as well as myself.
             </p>
 
             <div className="mt-5">
@@ -393,13 +390,13 @@ export default function About() {
         </div>
       </div>
 
-      {/* <div id="textSlider" class="row text-center p-5">
-          <div class="col-12 iamCol">
+      {/* <div id="textSlider" className="row text-center p-5">
+          <div className="col-12 iamCol">
           <p>WHO I AM ??????</p>
           </div>
-          <div class="col-12 slideCol text-center">
-            <div class="scroller">
-              <div class="inner">
+          <div className="col-12 slideCol text-center">
+            <div className="scroller">
+              <div className="inner">
                 <h1>DEVELOPER</h1>
                 <h1>CODER</h1>
 
@@ -431,20 +428,20 @@ export default function About() {
               Accomplished skills
             </p>
             <div className="col-12">
-            <span>
-            <p
-                style={{
-                  fontSize: "0.9rem",
-                  marginBottom: "60px",
-                  color: "gray",
-                }}
-              >
-                I want to improve my knowledge about different
-                technologies, fronted laugauge, background laugauge, libraries,
-                frameworks and also other skills and used these skills for
-                significantly growth as a programmer.
-              </p>
-            </span>
+              <span>
+                <p
+                  style={{
+                    fontSize: "0.9rem",
+                    marginBottom: "60px",
+                    color: "gray",
+                  }}
+                >
+                  I want to improve my knowledge about different technologies,
+                  frontend languages, backend languages, libraries,
+                  frameworks and also other skills and used these skills for
+                  significantly growth as a programmer.
+                </p>
+              </span>
 
               <div className="data mb-4">
                 <AnimatedOnScroll animationIn="bounceInLeft">
@@ -507,6 +504,7 @@ export default function About() {
                   minHeight: "100%",
                   objectFit: "cover",
                 }}
+                alt="foodgrill"
               />
             </div>
 
@@ -527,6 +525,7 @@ export default function About() {
                   minHeight: "100%",
                   objectFit: "cover",
                 }}
+                alt="hotelp"
               />
             </div>
 
@@ -633,10 +632,10 @@ export default function About() {
           <div className="col-12 text-center">
             <h6 className="mb-5 mt-3">PAPER PUBLICATION - (Review Paper) </h6>
             <span>
-            <p>
-              Design of a water & soil classification model for
-              satellite images via the machine learning process.
-            </p>
+              <p>
+                Design of a water & soil classification model for satellite
+                images via the machine learning process.
+              </p>
             </span>
             <p style={{ color: "gray" }}>
               Vol. 1 No. 1 (2023) : Proceedings of INSCIRD- 2023{" "}

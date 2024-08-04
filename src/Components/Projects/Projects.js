@@ -116,7 +116,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/hotelp.png" />
+                  <img src="img/hotelp.png"
+                  alt="hotel"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> HTML ,
@@ -152,7 +154,7 @@ export default function Projects() {
                     </AnimatedOnScroll>
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -172,7 +174,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/cal.png" style={{ height: "35px" }} />
+                  <img src="img/cal.png" style={{ height: "35px" }}
+                  alt="calculator"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> ReactJS
@@ -180,7 +184,7 @@ export default function Projects() {
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
-                    In this project we create the calcultor which is exact copy
+                    In this project I create the calcultor which is exact copy
                     of the orignal calculator and also all mathematical
                     oprations are done in the same manner.{" "}
                   </p>
@@ -211,7 +215,7 @@ export default function Projects() {
                     </AnimatedOnScroll>
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -231,7 +235,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/foodgrill.png" />
+                  <img src="img/foodgrill.png" 
+                  alt="food-grill"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> HTML ,
@@ -239,7 +245,7 @@ export default function Projects() {
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
-                    In this project we create the food website which is totally
+                    In this project I create the food website which is totally
                     responcive.{" "}
                   </p>
 
@@ -266,7 +272,7 @@ export default function Projects() {
                     </AnimatedOnScroll>
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -286,7 +292,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/coffee.png" />
+                  <img src="img/coffee.png" 
+                  alt="coffee"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> HTML ,
@@ -294,7 +302,7 @@ export default function Projects() {
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
-                    In this project we create the food website which is totally
+                    In this project I create the food website which is totally
                     responcive.{" "}
                   </p>
 
@@ -322,7 +330,7 @@ export default function Projects() {
 
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -348,7 +356,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/jobportal.png" />
+                  <img src="img/jobportal.png"
+                  alt="jobportal"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> Spring
@@ -382,7 +392,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -403,7 +413,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="/img/phonebbook.png" />
+                  <img src="/img/phonebbook.png"
+                  alt="phonebook"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> Servlet
@@ -435,7 +447,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -456,7 +468,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/enotesp.png" />
+                  <img src="img/enotesp.png" 
+                  alt="enotes"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> Spring
@@ -472,7 +486,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -509,15 +523,16 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/todo-list.png" />
+                  <img src="img/todo-list.png" 
+                  alt="todo-list"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "20px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> ReactJS
                     , Bootstrap5 , Firebase , Firebase-Realtime-Database{" "}
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
-                    <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>
-                    In this project I used firebase authentication and also i
+                    <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span> In this project I used firebase authentication and also I
                     used realtime firebase database to stored the data. In that
                     only one module is present which is user module . Firstly
                     user can sign in after sign in user sign up and after that
@@ -550,7 +565,7 @@ export default function Projects() {
 
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -572,7 +587,9 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/foodgrill1.png" />
+                  <img src="img/foodgrill1.png"
+                  alt="food-grill"
+                  />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> for
@@ -607,7 +624,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}
+                      project{" "}<br/>
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -635,10 +652,10 @@ export default function Projects() {
               Are you willing to contact with me? Let's build great things.{" "}
             </h6>
             <form onSubmit={getEmail}>
-              <div class="input-group mb-3">
+              <div className="input-group mb-3">
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   name="email"
                   value={email}
                   placeholder="Enter your Email"
@@ -655,7 +672,7 @@ export default function Projects() {
                   required
                 />
                 <button
-                  class="btn btn-primary"
+                  className="btn btn-primary"
                   type="submit"
                   id="button-addon2"
                 >

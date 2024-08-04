@@ -1,16 +1,13 @@
-
-.c{
-     margin-top: 150px;
+.c {
+  margin-top: 150px;
 }
 
-@media screen and (max-width: 575px){
-
-    .c{
-         margin-top: 260px;
-    }
-  
+@media screen and (max-width: 575px) {
+  .c {
+    margin-top: 260px;
   }
+}
 
-  .a{
-     font-size: 14px;
-  }
+.a {
+  font-size: 14px;
+}

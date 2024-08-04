@@ -16,7 +16,7 @@ export default function Contact() {
 
   useState(() => {
     window.scroll(0, 0);
-  },[])
+  }, []);
 
   const contactData = async (e) => {
     e.preventDefault();
@@ -56,7 +56,7 @@ export default function Contact() {
           <div className="row mt-5">
             <h5 className="mt-5 mb-5 text-center">YOU CAN REACH ME HERE : </h5>
             <div className="col-sm-4 mt-4">
-              <h6>Nagpur,India</h6>
+              <h6>Nagpur, India</h6>
               <p>
                 Plot 863/5 , Bharatwada <br />
                 Pardi HB-Town - 440035 <br />
@@ -117,10 +117,10 @@ export default function Contact() {
           <h4 className="mb-5 mt-3">Let's get in touch</h4>
           <div className="col-12">
             <form onSubmit={contactData}>
-              <div class="mb-4">
+              <div className="mb-4">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="Your name"
                   required
@@ -132,10 +132,10 @@ export default function Contact() {
                   }}
                 />
               </div>
-              <div class="mb-4">
+              <div className="mb-4">
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput2"
                   placeholder="Your email address"
                   required
@@ -147,10 +147,10 @@ export default function Contact() {
                   }}
                 />
               </div>
-              <div class="mb-4">
+              <div className="mb-4">
                 <input
                   type="number"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput3"
                   placeholder="Mobile no."
                   required
@@ -163,9 +163,9 @@ export default function Contact() {
                 />
               </div>
 
-              <div class="mb-4">
+              <div className="mb-4">
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="6"
                   required
@@ -195,12 +195,11 @@ export default function Contact() {
           width="100%"
           height="300"
           style={{ border: "0" }}
-          allowfullscreen=""
+          allowfullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
     </>
-
   );
 }

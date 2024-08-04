@@ -1,17 +1,15 @@
-a.active{
-       
-    border-bottom: 1px solid black;
-    font-weight: bold;
+a.active {
+  border-bottom: 1px solid black;
+  font-weight: bold;
 }
-a{
-    font-weight: bold;
-    font-size: 15px;
-
+a {
+  font-weight: bold;
+  font-size: 15px;
 }
-.d-flex a.n{
- color: rgb(85, 84, 84);
- font-weight: bold;
+.d-flex a.n {
+  color: rgb(85, 84, 84);
+  font-weight: bold;
 }
-.d-flex a.n:hover{
-    color: black;
+.d-flex a.n:hover {
+  color: black;
 }

@@ -1,9 +1,7 @@
-.a{
-    color:rgb(97, 97, 193);
-    font-size: 16px;
-    
+.a {
+  color: rgb(97, 97, 193);
+  font-size: 16px;
 }
-a.a:hover{
-    color: blue;
-    
+a.a:hover {
+  color: blue;
 }
