@@ -1,15 +1,29 @@
 a.active {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid var(--main-color);
   font-weight: bold;
+  color: var(--main-color);
 }
 a {
   font-weight: bold;
   font-size: 15px;
 }
 .d-flex a.n {
-  color: rgb(85, 84, 84);
+  color: var(--icone-color);
   font-weight: bold;
 }
 .d-flex a.n:hover {
-  color: black;
+  color: var(--icode-hover-color);
+}
+.collapse{
+  background-color: var( --main-navbar-color-bg);
+}
+.navbar.navbar-expand-lg{
+  background-color: var( --main-navbar-color-bg);
+}
+
+a.nav-link{
+  color: var(--navlink-a-color);
+}
+a.nav-link:hover{
+  color: var(--main-color);
 }

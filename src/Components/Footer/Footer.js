@@ -26,8 +26,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="container-fluid p-4 text-center"
-        style={{ backgroundColor: "black" }}
+        className="container-fluid p-4 text-center main-footer"
       >
         <div className="row mt-5 text-center">
           <div className="mt-3 mb-4 text-center">
@@ -70,8 +69,8 @@ export default function Footer() {
             </span>
           </div>
 
-          <div className="copyright mt-5 text-center">
-            <p style={{ color: "darkgrey", marginTop: "30px" }}>
+          <div className="copyright mt-4 text-center">
+            <p style={{ color: "darkgrey"}}>
               <TbCopyright style={{ fontSize: "18px" }} /> 2024 ALL RIGHTS
               RESERVED{" "}
               <span
@@ -84,7 +83,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="mt-3 mb-4 text-center">
+          <div className="mb-4 text-center">
             <span>
               <Link to={"/"} className="mx-3" style={{ fontSize: "14px" }}>
                 Home |{" "}

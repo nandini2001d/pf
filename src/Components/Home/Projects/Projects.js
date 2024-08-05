@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <>
       <section
-        style={{ backgroundColor: "rgb(248, 245, 245)", paddingBottom: "80px" }}
+        style={{ paddingBottom: "80px" }}
       >
         <div className="container main-container">
           <div className="row text-center main-row">
@@ -117,14 +117,12 @@ export default function Projects() {
                 For source code or any information about projects!!!
                 <br />
                 <a
-                  className="text-dark"
+                  className="a"
                   style={{ textDecoration: "none" }}
                   href="mailto:deshpanden2001@gmail.com"
                 >
-                  <IoMailOpen />
-                  --me
-                </a>
-                | <IoCall />
+                  <IoMailOpen /> --me
+                </a> | <IoCall />
                 <span style={{ fontWeight: "bold" }}>91-8010649831</span>
               </p>
             </div>

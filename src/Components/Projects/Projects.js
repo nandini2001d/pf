@@ -45,7 +45,7 @@ export default function Projects() {
         style={{
           position: "fixed",
           zIndex: "500",
-          backgroundColor: "rgb(248, 245, 245)",
+          backgroundColor: "var(--main-section-color)",
           marginBottom: "100px",
         }}
       >
@@ -108,7 +108,7 @@ export default function Projects() {
         <div className="container mt-5 main-container">
           <div className="row main-row c">
             <div className="col-lg-6 main-col mt-4">
-              <div className="card main-card p-2">
+              <div className="card main-card p-2 pro">
                 <div className="card-header text-center">
                   <span>
                     <h5>HOTEL WEBSITE</h5>
@@ -166,7 +166,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="col-lg-6 main-col  mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5>CALCULATOR</h5>
@@ -227,7 +227,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="col-lg-6 main-col  mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5>FOOD WEBSITE</h5>
@@ -284,7 +284,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="col-lg-6 main-col  mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5>COFFEE WEBSITE</h5>
@@ -348,7 +348,7 @@ export default function Projects() {
         <div className="container mt-5 main-container">
           <div className="row main-row c">
             <div className="col-lg-6 main-col  mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5>JOB PORTAL</h5>
@@ -405,7 +405,7 @@ export default function Projects() {
             </div>
 
             <div className="col-lg-6 main-col  mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5>PHONE-BOOKE-AAP</h5>
@@ -460,7 +460,7 @@ export default function Projects() {
             </div>
 
             <div className="col-lg-6 main-col mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5>E-Notes</h5>
@@ -515,7 +515,7 @@ export default function Projects() {
         <div className="container mt-5 main-container">
           <div className="row main-row c">
             <div className="col-lg-6 main-col  mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5 style={{ textTransform: "uppercase" }}>TODO-LIST</h5>
@@ -577,7 +577,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="col-lg-6 main-col  mt-4">
-              <div className="card main-card p-2 p-2 p-2">
+              <div className="card main-card p-2 pro p-2 p-2">
                 <div className="card-header text-center">
                   <span>
                     <h5 style={{ textTransform: "uppercase" }}>

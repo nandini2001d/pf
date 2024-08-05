@@ -60,6 +60,7 @@ export default function About() {
 
   React.useEffect(() => {
     window.scroll(0, 0);
+    
     const timer = setInterval(() => {
       setProgress((prevProgress) =>
         prevProgress >= 80 ? 80 : prevProgress + 2
@@ -292,7 +293,7 @@ export default function About() {
               {" "}
               <h2>
                 HI, IT'S ME <br />
-                <span style={{ color: "black" }}>NANDINI</span>
+                <span style={{ color:"var(--main-color)" }}>NANDINI</span>
               </h2>
             </span>
 
@@ -333,7 +334,7 @@ export default function About() {
                 <div className="card-body main-body">
                   <SiAwselasticloadbalancing style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Creative Person</h5>
-                  <p style={{ color: "gray" }} className="mt-4">
+                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
                     I have ability to be orignal, to be innovative, to conceive
                     of concepts, to make concepts concrete, and to be flexible
                     in thinking and working.
@@ -348,7 +349,7 @@ export default function About() {
                 <div className="card-body main-body">
                   <FaBook style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Quick Learner</h5>
-                  <p style={{ color: "gray" }} className="mt-4">
+                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
                     I am a quick learner, and so I like to learn new things,new
                     technologies, and also I have ability to do work in
                     simultaneously.
@@ -363,7 +364,7 @@ export default function About() {
                 <div className="card-body main-body">
                   <GoGoal style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Problem Solver</h5>
-                  <p style={{ color: "gray" }} className="mt-4">
+                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
                     I am person how love's to solve different types of problems
                     in different ways and after they solved they brings more
                     confidence in myself.
@@ -378,7 +379,7 @@ export default function About() {
                 <div className="card-body main-body">
                   <FaChessKing style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Pillar</h5>
-                  <p style={{ color: "gray" }} className="mt-4">
+                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
                     I have leadership qualify which makes me group leader in my
                     collage life and, I very well managed my team and, achive
                     success.
@@ -413,7 +414,7 @@ export default function About() {
       {/* progress bar */}
 
       <section
-        style={{ backgroundColor: "rgb(248, 245, 245)", marginTop: "-50px" }}
+        style={{ marginTop: "-50px" }}
       >
         <div className="conatiner p-5">
           <div className="row">
@@ -433,7 +434,7 @@ export default function About() {
                   style={{
                     fontSize: "0.9rem",
                     marginBottom: "60px",
-                    color: "gray",
+                    color: "var(--qualification-color-p)",
                   }}
                 >
                   I want to improve my knowledge about different technologies,
@@ -510,7 +511,7 @@ export default function About() {
 
             <p style={{ fontSize: "14px" }}>Working Start in --- 2024</p>
             <p>
-              Deployment is <span style={{ color: "gray" }}>PENDING......</span>
+              Deployment is <span style={{ color: "var(--qualification-color-p)" }}>PENDING......</span>
             </p>
           </div>
 
@@ -549,7 +550,7 @@ export default function About() {
       {/* education */}
 
       <section
-        style={{ backgroundColor: "rgb(248, 245, 245)", paddingBottom: "20px" }}
+        style={{ paddingBottom: "20px" }}
       >
         <div className="container mt-5 main-container mb-5">
           <div className="row mt-5 main-row">
@@ -637,22 +638,22 @@ export default function About() {
                 images via the machine learning process.
               </p>
             </span>
-            <p style={{ color: "gray" }}>
+            <p style={{ color: "var(--qualification-color-p)" }}>
               Vol. 1 No. 1 (2023) : Proceedings of INSCIRD- 2023{" "}
             </p>
-            <p style={{ color: "gray" }}>
-              <span style={{ color: "black" }}>Published :</span> 2023-07-03
+            <p style={{ color: "var(--qualification-color-p)" }}>
+              <span style={{ color:"var(--main-color)" }}>Published :</span> 2023-07-03
             </p>
-            <p style={{ color: "gray" }}>
-              <span style={{ color: "black" }}>Page no. :</span> 25-28
+            <p style={{ color: "var(--qualification-color-p)" }}>
+              <span style={{ color:"var(--main-color)" }}>Page no. :</span> 25-28
             </p>
             <p>
               {" "}
               <span
                 style={{
-                  color: "black",
+                  color:"var(--main-color)",
                   textTransform: "uppercase",
-                  borderBottom: "1px solid black",
+                  borderBottom: "1px solid var(--main-color)",
                 }}
               >
                 {" "}

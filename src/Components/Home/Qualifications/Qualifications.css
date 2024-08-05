@@ -10,3 +10,6 @@
   .CircularProgressbar-background {
     fill: green;
   }
+  .main-card-body-q{
+    background-color: var(--main-section-color);
+  }

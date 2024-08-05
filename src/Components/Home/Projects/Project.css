@@ -5,3 +5,9 @@
 a.a:hover {
   color: blue;
 }
+.main-body{
+  background-color: var(--main-back-color);
+}
+.main-card{
+  border: none;
+}

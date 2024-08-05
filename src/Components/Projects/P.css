@@ -11,3 +11,9 @@
 .a {
   font-size: 14px;
 }
+.pro{
+  background-color: var(--project-main-card);
+}
+/* .card-header{
+  background-color: var(--project-main-card-header);
+} */

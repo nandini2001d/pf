@@ -14,3 +14,7 @@ a:hover {
 .m:hover {
   color: rgb(60, 60, 163);
 }
+.main-card{
+  border: none;
+  background-color: var(--main-back-color);
+}

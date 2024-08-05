@@ -30,7 +30,7 @@ export default function Contact() {
       help: help,
     })
       .then(() => {
-        toast.success(
+        toast.success( 
           "Your message send successfully. I will contact you sortly, Thank You!!"
         );
         setName("");
@@ -50,7 +50,7 @@ export default function Contact() {
       {/* navigation ends */}
 
       <section
-        style={{ backgroundColor: "rgb(248, 245, 245)", paddingBottom: "50px" }}
+        style={{ paddingBottom: "50px" }}
       >
         <div className="container mt-5 text-center">
           <div className="row mt-5">

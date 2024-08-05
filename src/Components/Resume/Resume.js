@@ -13,11 +13,11 @@ export default function Resume() {
 
       <section
         className=""
-        style={{ marginTop: "190px", paddingBottom: "105px" }}
+        style={{height:"100vh"}}
       >
         <div className="container text-center">
           <div className="row">
-            <div className="col-12">
+            <div className="col-12" style={{marginTop:"180px"}}>
               <a href="resume.pdf" className="a">
                 VIEW CV <BsEye />
               </a>
@@ -31,9 +31,10 @@ export default function Resume() {
             </div>
           </div>
         </div>
+        <div style={{position:"absolute",bottom:"0",width:"100%"}}>
+        <Footer/>
+          </div>
       </section>
-
-      <Footer />
     </>
   );
 }

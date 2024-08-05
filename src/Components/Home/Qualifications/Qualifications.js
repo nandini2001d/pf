@@ -11,7 +11,8 @@ function CircularProgressWithLabel(props) {
       <CircularProgress
         variant="determinate"
         {...props}
-        style={{ height: "100px", width: "100px", color: "black" }}
+        className="progresss"
+        style={{ height: "100px", width: "100px",color:"var(--main-color)"}}
       />
       <Box
         sx={{
@@ -28,7 +29,7 @@ function CircularProgressWithLabel(props) {
         <Typography
           variant="caption"
           component="div"
-          style={{ color: "black", fontWeight: "bold", fontSize: "20px" }}
+          style={{ color:"var(--main-color)", fontWeight: "bold", fontSize: "20px" }}
         >
           {`${props.value}%`}
         </Typography>
@@ -76,7 +77,7 @@ export default function Qualifications() {
   return (
     <>
       <section
-        style={{ backgroundColor: "rgb(248, 245, 245)", paddingBottom: "20px" }}
+        style={{paddingBottom: "20px" }}
       >
         <div className="container mt-5">
           <div className="row text-center mt-3">
@@ -89,14 +90,14 @@ export default function Qualifications() {
                   border: "none",
                 }}
               >
-                <div className="card-body">
+                <div className="card-body main-card-body-q">
                   <div className="p">
                     <CircularProgressWithLabel value={progress} />
                   </div>
                   <div className="data mt-4">
                     <h5>10th - Adyal Vidyalaya Adyal</h5>
                     <span>
-                      <p style={{ fontSize: "14px", color: "gray" }}>
+                      <p style={{ fontSize: "14px", color: "var(--qualification-color-p)" }}>
                         Completed my 10th Boards with an <br />
                         aggregate of 79.40% in the year 2017.
                       </p>
@@ -113,14 +114,14 @@ export default function Qualifications() {
                   border: "none",
                 }}
               >
-                <div className="card-body">
+                <div className="card-body main-card-body-q">
                   <div className="p">
                     <CircularProgressWithLabel value={progress12} />
                   </div>
                   <div className="data mt-4">
                     <h5>12th - Prakash Junior Collage Adyal</h5>
                     <span>
-                      <p style={{ fontSize: "14px", color: "gray" }}>
+                      <p style={{ fontSize: "14px", color: "var(--qualification-color-p)" }}>
                         In 2019 I Cleared my 12th with an
                         <br />
                         aggregate Percentage 61.08%.
@@ -138,14 +139,14 @@ export default function Qualifications() {
                   border: "none",
                 }}
               >
-                <div className="card-body">
+                <div className="card-body main-card-body-q">
                   <div className="p">
                     <CircularProgressWithLabel value={progress13} />
                   </div>
                   <div className="data mt-4">
                     <h5>BE - Jhulelal Institute Of Technology</h5>
                     <span>
-                      <p style={{ fontSize: "14px", color: "gray" }}>
+                      <p style={{ fontSize: "14px", color: "var(--qualification-color-p)" }}>
                         In 2023 I Cleared my Engineering degree
                         <br />
                         with an 7.94 CGPA aggregate.
@@ -163,14 +164,14 @@ export default function Qualifications() {
                   border: "none",
                 }}
               >
-                <div className="card-body">
+                <div className="card-body main-card-body-q">
                   <div className="p">
                     <CircularProgressWithLabel value={progress14} />
                   </div>
                   <div className="data mt-4">
                     <h5>Java Fullstack Intership</h5>
                     <span>
-                      <p style={{ fontSize: "14px", color: "gray" }}>
+                      <p style={{ fontSize: "14px", color: "var(--qualification-color-p)" }}>
                         I completed java Fullstack Internship <br />
                         in the Vigo Technoworld Pvt. Ltd. , and duration was 6 months. <br/>
                         Where I got hands on experience on the projects.
