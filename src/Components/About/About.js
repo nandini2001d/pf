@@ -330,8 +330,8 @@ export default function About() {
         <div className="row main-row">
           <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4">
             <AnimatedOnScroll animationIn="bounceInLeft">
-              <div className="card text-center main-card p-2">
-                <div className="card-body main-body">
+              <div className="card text-center main-card">
+                <div className="card-body main-body about p-4">
                   <SiAwselasticloadbalancing style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Creative Person</h5>
                   <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
@@ -345,8 +345,8 @@ export default function About() {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4">
             <AnimatedOnScroll animationIn="bounceInLeft">
-              <div className="card text-center main-card p-2">
-                <div className="card-body main-body">
+              <div className="card text-center main-card">
+                <div className="card-body main-body about p-4">
                   <FaBook style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Quick Learner</h5>
                   <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
@@ -360,8 +360,8 @@ export default function About() {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4">
             <AnimatedOnScroll animationIn="bounceInLeft">
-              <div className="card text-center main-card p-2">
-                <div className="card-body main-body">
+              <div className="card text-center main-card">
+                <div className="card-body main-body about p-4">
                   <GoGoal style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Problem Solver</h5>
                   <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
@@ -375,8 +375,8 @@ export default function About() {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 main-col  mb-4 ">
             <AnimatedOnScroll animationIn="bounceInLeft">
-              <div className="card text-center main-card p-2">
-                <div className="card-body main-body">
+              <div className="card text-center main-card">
+                <div className="card-body main-body about p-4">
                   <FaChessKing style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Pillar</h5>
                   <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">

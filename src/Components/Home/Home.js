@@ -95,7 +95,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-lg-6 col-sm-12">
-            <div className="data mt-5">
+            <div className="data mt-5 mb-5">
               <h1>I AM</h1>
               <h1>NANDINI RAJU DESHPANDE</h1>
               <p className="mt-5 text-left">
