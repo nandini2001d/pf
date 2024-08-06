@@ -2,13 +2,17 @@ import React, { useEffect, useState } from "react";
 import Navigation from "../Navigation/Navigation";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaLink } from "react-icons/fa";
 import "../Projects/P.css";
 import Footer from "../Footer/Footer";
-import { IoCall } from "react-icons/io5";
+import { IoCall, IoMailOpenOutline } from "react-icons/io5";
 import app from "../../firebase/firebase";
 import { getDatabase, push, ref, set } from "firebase/database";
 import { toast } from "react-toastify";
+import { TbPhoneOutgoing, TbPhotoPentagon } from "react-icons/tb";
+import { BsMailbox, BsMailbox2Flag } from "react-icons/bs";
+import { BiCertification, BiHome, BiMailSend } from "react-icons/bi";
+import { CiHome, CiMail } from "react-icons/ci";
 
 export default function Projects() {
   const [state, setState] = useState("F");
@@ -50,6 +54,8 @@ export default function Projects() {
         }}
       >
         <div className="row mt-5 text-center">
+          <span>Projects by Nandini Deshpande</span>
+          <h4 className="mb-3">Project Portfolio</h4>
           <div className="col-sm-4 p-2">
             <button
               type="submit"
@@ -116,9 +122,7 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/hotelp.png"
-                  alt="hotel"
-                  />
+                  <img src="img/hotelp.png" alt="hotel" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> HTML ,
@@ -154,7 +158,7 @@ export default function Projects() {
                     </AnimatedOnScroll>
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -174,8 +178,10 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/cal.png" style={{ height: "35px" }}
-                  alt="calculator"
+                  <img
+                    src="img/cal.png"
+                    style={{ height: "35px" }}
+                    alt="calculator"
                   />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
@@ -215,7 +221,7 @@ export default function Projects() {
                     </AnimatedOnScroll>
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -235,9 +241,7 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/foodgrill.png" 
-                  alt="food-grill"
-                  />
+                  <img src="img/foodgrill.png" alt="food-grill" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> HTML ,
@@ -272,7 +276,7 @@ export default function Projects() {
                     </AnimatedOnScroll>
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -292,9 +296,7 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/coffee.png" 
-                  alt="coffee"
-                  />
+                  <img src="img/coffee.png" alt="coffee" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> HTML ,
@@ -330,7 +332,7 @@ export default function Projects() {
 
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -356,9 +358,7 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/jobportal.png"
-                  alt="jobportal"
-                  />
+                  <img src="img/jobportal.png" alt="jobportal" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> Spring
@@ -392,7 +392,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -413,9 +413,7 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="/img/phonebbook.png"
-                  alt="phonebook"
-                  />
+                  <img src="/img/phonebbook.png" alt="phonebook" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> Servlet
@@ -447,7 +445,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -468,9 +466,7 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/enotesp.png" 
-                  alt="enotes"
-                  />
+                  <img src="img/enotesp.png" alt="enotes" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> Spring
@@ -486,7 +482,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -523,16 +519,15 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/todo-list.png" 
-                  alt="todo-list"
-                  />
+                  <img src="img/todo-list.png" alt="todo-list" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "20px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> ReactJS
                     , Bootstrap5 , Firebase , Firebase-Realtime-Database{" "}
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
-                    <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span> In this project I used firebase authentication and also I
+                    <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
+                    In this project I used firebase authentication and also I
                     used realtime firebase database to stored the data. In that
                     only one module is present which is user module . Firstly
                     user can sign in after sign in user sign up and after that
@@ -565,7 +560,7 @@ export default function Projects() {
 
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -587,9 +582,7 @@ export default function Projects() {
                   <br />
                 </div>
                 <div className="card-body main-card-body">
-                  <img src="img/foodgrill1.png"
-                  alt="food-grill"
-                  />
+                  <img src="img/foodgrill1.png" alt="food-grill" />
                   <br />
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>TOOLS : </span> for
@@ -624,7 +617,7 @@ export default function Projects() {
                   <div className="text-center">
                     <p style={{ fontSize: "14px" }}>
                       If you want source code or more information about this
-                      project{" "}<br/>
+                      project <br />
                       <Link to={"/contact"} style={{ color: "blue" }}>
                         {" "}
                         Contact Me
@@ -684,7 +677,40 @@ export default function Projects() {
         </div>
       </div>
 
-      <Footer />
+      <section className="p-3">
+        <div className="row">
+          <div className="col-12 text-center">
+            <span>
+              <TbPhoneOutgoing /> 91- 8010 649 831
+            </span>
+            <br />
+            <span>
+              <Link to={"mailto:deshpanden2001@gmail.com"} className="n">
+                <CiMail /> deshpanden2001@gmail.com
+              </Link>
+            </span>
+            <br />
+            <span>
+              <Link className="n" to="https://pf-puce.vercel.app/">
+                <FaLink /> https://pf-puce.vercel.app/
+              </Link>
+            </span>
+            <br />
+            <br />
+
+            <Link className="n" to={"/"}>
+              <BiHome /> Home
+            </Link>
+            <Link className="n mx-3" to={"/certificates"}>
+              <BiCertification /> Certifications
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
+}
+
+{
+  /* <Link className="a" to="https://pf-puce.vercel.app/"><FaLink /> https://pf-puce.vercel.app/</Link> */
 }

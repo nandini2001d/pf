@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: var(--main-back-color);
+  width: 21rem;
+  height: fit-content;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 10px;
+  box-shadow: var(--main-card-body-shadow);
+}
+
+.card img {
+  margin-top: -20%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card h4 {
+  margin: 0;
+}
+
+.card p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.card .btnn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

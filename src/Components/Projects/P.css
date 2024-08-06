@@ -17,3 +17,10 @@
 /* .card-header{
   background-color: var(--project-main-card-header);
 } */
+
+.n{
+  color: var(--icone-color);
+}
+.n:hover{
+  color: var(--icode-hover-color);
+}

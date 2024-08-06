@@ -8,59 +8,59 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.light-theme{
-   --main-back-color: rgb(255, 255, 255);
-   --main-color:black;
+.light-theme {
+  --main-back-color: rgb(255, 255, 255);
+  --main-color: black;
 
-   --main-navbar-color-bg:white;
+  --main-navbar-color-bg: white;
 
-   --main-section-color:rgb(248, 245, 245);
-   
-   --icone-color:rgb(74, 65, 65);
-   --icone-hover-color:black;
+  --main-section-color: rgb(248, 245, 245);
 
-   --border-navbar-shadow:2px 2px 3px rgba(201, 197, 197, 0.881);
+  --icone-color: rgb(74, 65, 65);
+  --icone-hover-color: black;
 
-   --qualification-color-p:gray;
+  --border-navbar-shadow: 2px 2px 3px rgba(201, 197, 197, 0.881);
 
-   --main-card-body-shadow:1px 2px 2px rgb(186, 185, 185);
+  --qualification-color-p: gray;
 
-   --footer-bg-color:rgb(58, 57, 57);
+  --main-card-body-shadow: 1px 2px 2px rgb(186, 185, 185);
 
-   --project-main-card:white;
+  --footer-bg-color: rgb(58, 57, 57);
 
-   --navlink-a-color:rgb(70, 69, 69);
+  --project-main-card: white;
+
+  --navlink-a-color: rgb(70, 69, 69);
 }
-.dark-theme{
+.dark-theme {
   --main-back-color: rgb(26, 25, 25);
-  --main-color:white;
+  --main-color: white;
 
-  --main-navbar-color-bg:rgb(40, 40, 40);
+  --main-navbar-color-bg: rgb(40, 40, 40);
 
-  --main-section-color:rgb(56, 56, 56);
+  --main-section-color: rgb(56, 56, 56);
 
   background-color: rgb(26, 25, 25);
   color: white;
 
-  --border-navbar-shadow:2px 2px 3px rgb(92, 91, 91);
+  --border-navbar-shadow: 2px 2px 3px rgb(92, 91, 91);
 
-  --icone-color:rgba(255, 255, 255, 0.827);
-   --icone-hover-color:white;
+  --icone-color: rgba(255, 255, 255, 0.827);
+  --icone-hover-color: white;
 
-   --qualification-color-p:rgba(255, 255, 255, 0.742);
+  --qualification-color-p: rgba(255, 255, 255, 0.742);
 
-   --main-card-body-shadow:1px 2px 2px rgb(11, 10, 10);
+  --main-card-body-shadow: 1px 2px 2px rgb(11, 10, 10);
 
-   --footer-bg-color:rgba(50, 42, 42, 0.349);
+  --footer-bg-color: rgba(50, 42, 42, 0.349);
 
-   --project-main-card:rgb(50, 48, 48);
-   
-   --navlink-a-color:rgb(212, 206, 206);
+  --project-main-card: rgb(50, 48, 48);
+
+  --navlink-a-color: rgb(212, 206, 206);
 }
 
-section{
+section {
   background-color: var(--main-section-color);
 }
-h1 h2 h3 h4 h5 h6 p{
+h1 h2 h3 h4 h5 h6 p {
   color: var(--main-color);
 }

@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import Navigation from "../Navigation/Navigation";
-import { BiPhone } from "react-icons/bi";
+import { BiHomeAlt, BiPhone } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { getDatabase, push, ref, set } from "firebase/database";
 import app from "../../firebase/firebase";
 import { toast } from "react-toastify";
+import { TbCertificate } from "react-icons/tb";
+import { GoProject } from "react-icons/go";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -190,7 +192,8 @@ export default function Contact() {
       </div>
 
       <section className="mt-5">
-        <iframe
+       <AnimatedOnScroll animationIn='fadeInDownBig'>
+       <iframe
           src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3720.8241446505363!2d79.14974457526017!3d21.159395580522897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDA5JzMzLjgiTiA3OcKwMDknMDguNCJF!5e0!3m2!1sen!2sin!4v1722535614721!5m2!1sen!2sin"
           width="100%"
           height="300"
@@ -199,6 +202,19 @@ export default function Contact() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
+       </AnimatedOnScroll>
+      </section>
+
+      <section className="container-fluid p-2">
+         <div className="row">
+           <div className="col-md-12 text-center">
+      
+               <Link className="n" to={'/'}><BiHomeAlt/> Home</Link>
+               <Link className="n mx-3" to={'/'}><TbCertificate/> Certificates</Link>
+               <Link className="n" to={'/'}><GoProject/> Projects</Link>
+              
+           </div>
+         </div>
       </section>
     </>
   );

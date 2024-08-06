@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../Navigation/Navigation.css";
-import { FaGithub } from "react-icons/fa";
+import { FaCertificate, FaGithub } from "react-icons/fa";
 import { IoMailOpen } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
@@ -11,32 +11,37 @@ import { TbInfoHexagon } from "react-icons/tb";
 import { IoHomeOutline } from "react-icons/io5";
 import { CiLight } from "react-icons/ci";
 import { RxDropdownMenu } from "react-icons/rx";
+import { BiCertification } from "react-icons/bi";
 
 export default function Navigation() {
-  const [on,setOn]=useState(false||true);
-  const [state,setState]=useState('light-theme');
+  const [on, setOn] = useState(false || true);
+  const [state, setState] = useState("light-theme");
 
+  useEffect(() => {
+    const savethem = localStorage.getItem("theme");
+    if (savethem) {
+      setState(savethem);
+      document.body.className = savethem;
+    }
+  }, []);
 
-      useEffect(()=>{
-       const savethem=localStorage.getItem('theme');
-       if(savethem){
-        setState(savethem);
-        document.body.className=savethem;
-       }
-      },[])
+  const toogleTheme = () => {
+    const newTheme = state === "light-theme" ? "dark-theme" : "light-theme";
+    setState(newTheme);
+    document.body.className = newTheme;
+    localStorage.setItem("theme", newTheme);
+  };
 
-      const toogleTheme=()=>{
-              const newTheme=state==='light-theme'?'dark-theme':'light-theme';
-              setState(newTheme);
-              document.body.className=newTheme;
-              localStorage.setItem('theme',newTheme);
-      }
+  console.log(on);
 
- console.log(on);
-  
   const Links = [
     { name: "Home", to: "/", logo: <IoHomeOutline /> },
     { name: "About", to: "/about", logo: <TbInfoHexagon /> },
+    {
+      name: "Certifications",
+      to: "/certificates",
+      logo: <BiCertification style={{ fontSize: "21px" }} />,
+    },
     { name: "Projects", to: "/projects", logo: <SiCountingworkspro /> },
     {
       name: "Contact",
@@ -75,7 +80,7 @@ export default function Navigation() {
           </Link>
           <button
             className="navbar-toggler"
-            style={{backgroundColor:"var(--main-back-color)"}}
+            style={{ backgroundColor: "var(--main-back-color)" }}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -83,12 +88,9 @@ export default function Navigation() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <RxDropdownMenu style={{color:"var(--main-color)"}}/>
+            <RxDropdownMenu style={{ color: "var(--main-color)" }} />
           </button>
-          <div
-            className="collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {Links.map((value, id) => (
                 <li className="nav-item" key={id}>
@@ -103,7 +105,12 @@ export default function Navigation() {
               ))}
             </ul>
           </div>
-          <form className="d-flex" onSubmit={(e)=>{e.preventDefault()}}>
+          <form
+            className="d-flex"
+            onSubmit={(e) => {
+              e.preventDefault();
+            }}
+          >
             <Link
               to="https://github.com/nandini2001d/ "
               className="mx-2 n"
@@ -121,7 +128,11 @@ export default function Navigation() {
             <Link
               to="mailto:deshpanden2001@gmail.com"
               className="mx-2 n"
-              style={{ fontSize: "18px",borderRight:"2.5px solid var(--main-color)",paddingRight:"10px"}}
+              style={{
+                fontSize: "18px",
+                borderRight: "2.5px solid var(--main-color)",
+                paddingRight: "10px",
+              }}
             >
               <IoMailOpen />
             </Link>
@@ -130,14 +141,27 @@ export default function Navigation() {
   onClick={togglebtn} id="flexSwitchCheckDefault"/>
   <ToggleButton htmlFor="flexSwitchCheckDefault"/>
 </div> */}
-                      {
-                        localStorage.getItem('theme')==='light-theme'
-                        ?<CiLight className="n"
-                        style={{ fontSize: "25px" ,marginTop:"3px",fontWeight:"bold"}} onClick={toogleTheme} />
-                        :<MdDarkMode className=" n"
-                        style={{ fontSize: "25px" ,marginTop:"3px",fontWeight:"bold"}} onClick={toogleTheme}/>
-                      }
-                      
+            {localStorage.getItem("theme") === "light-theme" ? (
+              <CiLight
+                className="n"
+                style={{
+                  fontSize: "25px",
+                  marginTop: "3px",
+                  fontWeight: "bold",
+                }}
+                onClick={toogleTheme}
+              />
+            ) : (
+              <MdDarkMode
+                className=" n"
+                style={{
+                  fontSize: "25px",
+                  marginTop: "3px",
+                  fontWeight: "bold",
+                }}
+                onClick={toogleTheme}
+              />
+            )}
           </form>
         </div>
       </nav>

@@ -1,0 +1,23 @@
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-image: none;
+}
+.carousel-control-prev-icon::before{
+content: '<';
+font-size: 20px;
+color: var(--main-color); 
+font-weight: bold;
+}
+.carousel-control-next-icon::before{
+    content: '>';
+    font-size: 20px;
+    color: var(--main-color); 
+    font-weight: bold;
+}
+
+.carousel-indicators [data-bs-target]{
+ background-color: gray;
+}
+.carousel-indicators .active {
+    background-color: var(--main-color); 
+
+}

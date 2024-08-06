@@ -7,9 +7,14 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
+import {
+  MdContactMail,
+  MdContactPage,
+  MdContacts,
+  MdMail,
+} from "react-icons/md";
 import "../About/About.css";
-import { GoGoal } from "react-icons/go";
+import { GoGoal, GoProject } from "react-icons/go";
 import { SiAwselasticloadbalancing } from "react-icons/si";
 import PropTypes from "prop-types";
 import LinearProgress from "@mui/material/LinearProgress";
@@ -19,6 +24,8 @@ import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import Footer from "../Footer/Footer";
+import { BiHomeAlt } from "react-icons/bi";
+import { TbCertificate } from "react-icons/tb";
 
 function LinearProgressWithLabel(props) {
   return (
@@ -60,7 +67,7 @@ export default function About() {
 
   React.useEffect(() => {
     window.scroll(0, 0);
-    
+
     const timer = setInterval(() => {
       setProgress((prevProgress) =>
         prevProgress >= 80 ? 80 : prevProgress + 2
@@ -293,7 +300,7 @@ export default function About() {
               {" "}
               <h2>
                 HI, IT'S ME <br />
-                <span style={{ color:"var(--main-color)" }}>NANDINI</span>
+                <span style={{ color: "var(--main-color)" }}>NANDINI</span>
               </h2>
             </span>
 
@@ -334,7 +341,10 @@ export default function About() {
                 <div className="card-body main-body about p-4">
                   <SiAwselasticloadbalancing style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Creative Person</h5>
-                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
+                  <p
+                    style={{ color: "var(--qualification-color-p)" }}
+                    className="mt-4"
+                  >
                     I have ability to be orignal, to be innovative, to conceive
                     of concepts, to make concepts concrete, and to be flexible
                     in thinking and working.
@@ -349,7 +359,10 @@ export default function About() {
                 <div className="card-body main-body about p-4">
                   <FaBook style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Quick Learner</h5>
-                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
+                  <p
+                    style={{ color: "var(--qualification-color-p)" }}
+                    className="mt-4"
+                  >
                     I am a quick learner, and so I like to learn new things,new
                     technologies, and also I have ability to do work in
                     simultaneously.
@@ -364,7 +377,10 @@ export default function About() {
                 <div className="card-body main-body about p-4">
                   <GoGoal style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Problem Solver</h5>
-                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
+                  <p
+                    style={{ color: "var(--qualification-color-p)" }}
+                    className="mt-4"
+                  >
                     I am person how love's to solve different types of problems
                     in different ways and after they solved they brings more
                     confidence in myself.
@@ -379,7 +395,10 @@ export default function About() {
                 <div className="card-body main-body about p-4">
                   <FaChessKing style={{ fontSize: "35px" }} />
                   <h5 className="mt-2">Pillar</h5>
-                  <p style={{ color: "var(--qualification-color-p)" }} className="mt-4">
+                  <p
+                    style={{ color: "var(--qualification-color-p)" }}
+                    className="mt-4"
+                  >
                     I have leadership qualify which makes me group leader in my
                     collage life and, I very well managed my team and, achive
                     success.
@@ -413,9 +432,7 @@ export default function About() {
 
       {/* progress bar */}
 
-      <section
-        style={{ marginTop: "-50px" }}
-      >
+      <section style={{ marginTop: "-50px" }}>
         <div className="conatiner p-5">
           <div className="row">
             <p
@@ -438,9 +455,9 @@ export default function About() {
                   }}
                 >
                   I want to improve my knowledge about different technologies,
-                  frontend languages, backend languages, libraries,
-                  frameworks and also other skills and used these skills for
-                  significantly growth as a programmer.
+                  frontend languages, backend languages, libraries, frameworks
+                  and also other skills and used these skills for significantly
+                  growth as a programmer.
                 </p>
               </span>
 
@@ -511,7 +528,12 @@ export default function About() {
 
             <p style={{ fontSize: "14px" }}>Working Start in --- 2024</p>
             <p>
-              Deployment is <span style={{ color: "var(--qualification-color-p)" }}>PENDING......</span>
+              Deployment is{" "}
+              <AnimatedOnScroll animationIn="fadeInDownBig">
+                <p style={{ color: "var(--qualification-color-p)" }}>
+                  On Progress
+                </p>
+              </AnimatedOnScroll>
             </p>
           </div>
 
@@ -530,7 +552,9 @@ export default function About() {
               />
             </div>
 
-            <p style={{ fontSize: "14px" }}>On Working ...........</p>
+            <AnimatedOnScroll animationIn="fadeInDownBig">
+              <p style={{ fontSize: "14px" }}>On Progress</p>
+            </AnimatedOnScroll>
           </div>
 
           <div className="mt-5 mb-3">
@@ -549,9 +573,7 @@ export default function About() {
 
       {/* education */}
 
-      <section
-        style={{ paddingBottom: "20px" }}
-      >
+      <section style={{ paddingBottom: "20px" }}>
         <div className="container mt-5 main-container mb-5">
           <div className="row mt-5 main-row">
             <p className="mb-5 text-center">PASS OUT YEARS</p>
@@ -642,24 +664,28 @@ export default function About() {
               Vol. 1 No. 1 (2023) : Proceedings of INSCIRD- 2023{" "}
             </p>
             <p style={{ color: "var(--qualification-color-p)" }}>
-              <span style={{ color:"var(--main-color)" }}>Published :</span> 2023-07-03
+              <span style={{ color: "var(--main-color)" }}>Published :</span>{" "}
+              2023-07-03
             </p>
             <p style={{ color: "var(--qualification-color-p)" }}>
-              <span style={{ color:"var(--main-color)" }}>Page no. :</span> 25-28
+              <span style={{ color: "var(--main-color)" }}>Page no. :</span>{" "}
+              25-28
             </p>
-            <p>
-              {" "}
-              <span
-                style={{
-                  color:"var(--main-color)",
-                  textTransform: "uppercase",
-                  borderBottom: "1px solid var(--main-color)",
-                }}
-              >
+            <AnimatedOnScroll animationIn="bounceInLeft">
+              <p>
                 {" "}
-                Author : Nandini Deshpande
-              </span>{" "}
-            </p>
+                <span
+                  style={{
+                    color: "var(--main-color)",
+                    textTransform: "uppercase",
+                    borderBottom: "1px solid var(--main-color)",
+                  }}
+                >
+                  {" "}
+                  Author : Nandini Deshpande
+                </span>{" "}
+              </p>
+            </AnimatedOnScroll>
 
             <AnimatedOnScroll animationIn="bounceInLeft">
               <Link to={"https://ssgmjournal.in"} className="m mb-5">
@@ -670,7 +696,46 @@ export default function About() {
         </div>
       </div>
 
-      <Footer />
+      <section className="container-fluid mt-5">
+        <div className="row">
+          <div className="col-sm-6 p-3">
+            <AnimatedOnScroll animationIn="bounceInLeft">
+              <span>
+                Developers write code but good developers write code with proper
+                comments.
+              </span>
+
+              <p>- Nandini Deshpande</p>
+            </AnimatedOnScroll>
+          </div>
+          <div className="col-sm-6 p-3">
+            <AnimatedOnScroll animationIn="bounceInLeft">
+              <Link className="n" to={"/"}>
+                <BiHomeAlt /> Home
+              </Link>
+              <Link className="n mx-3" to={"/certificates"}>
+                <TbCertificate /> Certificates
+              </Link>
+              <Link className="n" to={"/projects"}>
+                <GoProject /> Projects
+              </Link>
+              <br />
+              <br />
+              <h5>Lets' Connect On : </h5>
+              <Link
+                to="mailto:deshpanden2001@gmail.com"
+                className="mt-2 a"
+                style={{
+                  fontSize: "23px",
+                  borderBottom: "2px solid var(--main-color)",
+                }}
+              >
+                Mail
+              </Link>
+            </AnimatedOnScroll>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
