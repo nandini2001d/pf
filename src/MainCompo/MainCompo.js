@@ -19,7 +19,7 @@ export default function MainCompo() {
       content: (
         <Card
           imagen="/img/certificates/publication1-logo.png"
-          viewImage="/img/certificates/publication1.pdf"
+          viewImage="/img/certificates/publication1.jpeg"
           duration="20th-21st April 2023"
           title="Paper Publication"
           text="IEEE National Studemts's Conference on Innovation In Rural Development"
@@ -31,7 +31,7 @@ export default function MainCompo() {
       content: (
         <Card
           imagen="/img/certificates/publication2-logo.png"
-          viewImage="/img/certificates/publication2.pdf"
+          viewImage="/img/certificates/publication2.jpeg"
           duration="12th-13th May 2023"
           title="International Conference"
           text="International Conference On “Innovation in Engineering, Technology, Science and Management (ICIETSM-2023)"
@@ -43,7 +43,7 @@ export default function MainCompo() {
       content: (
         <Card
           imagen="/img/certificates/encypherist-logo.png"
-          viewImage="/img/certificates/sqlw.pdf"
+          viewImage="/img/certificates/sql-workshop.jpeg"
           duration="7th Oct 2022"
           title="Hands on Advanced SQL Workshop"
           text="Encypherist Department of Computer Science and Engineering and Artificial Intelligence and Machine Learning"
@@ -67,7 +67,7 @@ export default function MainCompo() {
       content: (
         <Card
           imagen="/img/certificates/src2.png"
-          viewImage="/img/certificates/rangoli.pdf"
+          viewImage="/img/certificates/rangoli.jpeg"
           duration="2nd-6th Nov 2021"
           title="Rangoli Competition"
           text="Student's Representative Council, Jhulelal Institute of Technology, Nagpur"
