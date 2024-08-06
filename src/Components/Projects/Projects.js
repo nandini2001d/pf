@@ -53,9 +53,9 @@ export default function Projects() {
           marginBottom: "100px",
         }}
       >
-        <div className="row mt-5 text-center">
-          <span>Projects by Nandini Deshpande</span>
-          <h4 className="mb-3">Project Portfolio</h4>
+        <div className="row mt-4 text-center">
+          <span className="mt-2">Projects by Nandini Deshpande</span>
+          <h6 className="mb-1">Project Portfolio</h6>
           <div className="col-sm-4 p-2">
             <button
               type="submit"
