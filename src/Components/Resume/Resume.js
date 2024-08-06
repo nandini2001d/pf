@@ -20,11 +20,11 @@ export default function Resume() {
           <div className="row">
             <div className="col-12" style={{ marginTop: "320px" }}>
               <AnimatedOnScroll animationIn="bounceInLeft">
-                <a href="resume.pdf" target="_blank" className="n">
+                <a href="Nandini-Deshpande-CV.jpeg" target="_blank" className="n">
                   <BsEye /> VIEW CV
                 </a>
                 <a
-                  href="resume.pdf"
+                  href="Nandini-Deshpande-CV.pdf"
                   download={"Nandini-Deshpande-CV"}
                   className="n mx-sm-5 mx-3"
                 >
