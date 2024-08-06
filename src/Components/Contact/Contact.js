@@ -210,8 +210,8 @@ export default function Contact() {
            <div className="col-md-12 text-center">
       
                <Link className="n" to={'/'}><BiHomeAlt/> Home</Link>
-               <Link className="n mx-3" to={'/'}><TbCertificate/> Certificates</Link>
-               <Link className="n" to={'/'}><GoProject/> Projects</Link>
+               <Link className="n mx-3" to={'/certificates'}><TbCertificate/> Certificates</Link>
+               <Link className="n" to={'/projects'}><GoProject/> Projects</Link>
               
            </div>
          </div>
