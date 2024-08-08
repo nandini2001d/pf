@@ -135,7 +135,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     height="350"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -196,7 +196,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -254,7 +254,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     height="336"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -309,7 +309,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -379,7 +379,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -432,7 +432,7 @@ export default function Projects() {
                   <br />
                   <br />
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     
                     height="330"
                     width="100%"
@@ -492,7 +492,7 @@ export default function Projects() {
                   </div>
 
                   {/* <video
-                        autoPlay  loop="1000"  controls
+                        autoPlay="true"  loop="1000"  controls
                         height="350"
                         width="100%"
                         style={{ objectFit: "cover" }}
@@ -537,7 +537,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     height="338"
                     width="100%"
                     style={{ objectFit: "cover", marginTop: "45px" }}
@@ -605,7 +605,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay  loop="1000"  controls
+                    autoPlay="true"  loop="1000"  controls
                     height="382"
                     width="100%"
                     style={{ objectFit: "cover" }}
