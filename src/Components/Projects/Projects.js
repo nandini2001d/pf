@@ -135,12 +135,12 @@ export default function Projects() {
                   </p>
 
                   <video
-                    controls
+                    autoPlay  loop="1000"  controls
                     height="350"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
-                    autoPlay loop="1000"  preload="auto"
+                    
                   >
                     <source src="/ved/hotelr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
@@ -196,12 +196,12 @@ export default function Projects() {
                   </p>
 
                   <video
-                    controls
+                    autoPlay  loop="1000"  controls
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
-                    autoPlay loop="1000"  preload="auto"
+                    
                   >
                     <source
                       src="/ved/calculatorr.mp4"
@@ -254,12 +254,12 @@ export default function Projects() {
                   </p>
 
                   <video
-                    controls
+                    autoPlay  loop="1000"  controls
                     height="336"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
-                    autoPlay loop="1000"  preload="auto"
+                    
                   >
                     <source src="/ved/foodgrillr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
@@ -309,12 +309,12 @@ export default function Projects() {
                   </p>
 
                   <video
-                    controls
+                    autoPlay  loop="1000"  controls
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
-                    autoPlay loop="1000"  preload="auto"
+                    
                   >
                     <source src="/ved/coffeer.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
@@ -379,12 +379,12 @@ export default function Projects() {
                   </p>
 
                   <video
-                    controls
+                    autoPlay  loop="1000"  controls
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
-                    autoPlay loop="1000"  preload="auto"
+                    
                   >
                     <source src="/ved/jobportalr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
@@ -432,8 +432,8 @@ export default function Projects() {
                   <br />
                   <br />
                   <video
-                    controls
-                    autoPlay loop="1000"  preload="auto"
+                    autoPlay  loop="1000"  controls
+                    
                     height="330"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -492,7 +492,7 @@ export default function Projects() {
                   </div>
 
                   {/* <video
-                        controls
+                        autoPlay  loop="1000"  controls
                         height="350"
                         width="100%"
                         style={{ objectFit: "cover" }}
@@ -537,12 +537,12 @@ export default function Projects() {
                   </p>
 
                   <video
-                    controls
+                    autoPlay  loop="1000"  controls
                     height="338"
                     width="100%"
                     style={{ objectFit: "cover", marginTop: "45px" }}
                     className="mb-3"
-                    autoPlay loop="1000"  preload="auto"
+                    
                     
                   >
                     <source src="/ved/todo-list.mp4" type="video/mp4"></source>
@@ -605,12 +605,12 @@ export default function Projects() {
                   </p>
 
                   <video
-                    controls
+                    autoPlay  loop="1000"  controls
                     height="382"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
-                    autoPlay loop="1000"  preload="auto"
+                    
                   >
                     <source src="/ved/resurentr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
