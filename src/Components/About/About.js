@@ -638,7 +638,7 @@ export default function About() {
                           paddingLeft: "25px",
                         }}
                       >
-                        <h6>Jhulelal Istitute Of Technology</h6>
+                        <h6>Jhulelal Institute Of Technology</h6>
                         <p>Graduation</p>
                       </div>
                     </div>

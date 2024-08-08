@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "../Navigation/Navigation";
 import { BsEye } from "react-icons/bs";
 import { FaDownload, FaHome } from "react-icons/fa";
@@ -9,6 +9,9 @@ import { Link } from "react-router-dom";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 export default function Resume() {
+  useEffect(()=>{
+          window.scroll(0,0);
+  },[])
   return (
     <>
       {/* navigation starts */}
@@ -38,6 +41,8 @@ export default function Resume() {
           style={{
             position: "absolute",
             bottom: "0",
+            left:"0",
+            right:"0",
             width: "100%",
             backgroundColor: "var(--main-back-color)",
           }}
