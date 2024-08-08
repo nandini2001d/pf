@@ -135,7 +135,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     height="350"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -196,7 +196,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -254,7 +254,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     height="336"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -309,7 +309,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -379,7 +379,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -432,7 +432,7 @@ export default function Projects() {
                   <br />
                   <br />
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     
                     height="330"
                     width="100%"
@@ -492,7 +492,7 @@ export default function Projects() {
                   </div>
 
                   {/* <video
-                         loop="1000"  controls loading="lazy" preload="metadata"
+                        controls loading="lazy" preload="metadata"
                         height="350"
                         width="100%"
                         style={{ objectFit: "cover" }}
@@ -537,7 +537,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     height="338"
                     width="100%"
                     style={{ objectFit: "cover", marginTop: "45px" }}
@@ -603,7 +603,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                     loop="1000"  controls loading="lazy" preload="metadata"
+                    controls loading="lazy" preload="metadata"
                     height="382"
                     width="100%"
                     style={{ objectFit: "cover" }}
