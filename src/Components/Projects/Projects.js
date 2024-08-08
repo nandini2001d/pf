@@ -130,9 +130,10 @@ export default function Projects() {
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
-                    This website is totally responcive and it includes the
+                    This website is totally responsive and it includes the
                     frontend technologies.
                   </p>
+                  <p style={{color:"red",fontSize: "13px"}}>Totally Responsive</p>
 
                   <video
                      autoPlay="true" controls loading="lazy" preload="metadata" loop="1000"
@@ -194,6 +195,7 @@ export default function Projects() {
                     of the orignal calculator and also all mathematical
                     oprations are done in the same manner.{" "}
                   </p>
+                  <p style={{color:"red",fontSize: "13px"}}>Totally Responsive</p>
 
                   <video
                      autoPlay="true" controls loading="lazy" preload="metadata" loop="1000"
@@ -249,9 +251,9 @@ export default function Projects() {
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
-                    In this project I create the food website which is totally
-                    responcive.{" "}
+                    In this project I create the food website.{" "}
                   </p>
+                  <p style={{color:"red",fontSize: "13px"}}>Please open in Laptop - not responsive</p>
 
                   <video
                      autoPlay="true" controls loading="lazy" preload="metadata" loop="1000"
@@ -304,9 +306,9 @@ export default function Projects() {
                   </p>
                   <p style={{ fontSize: "15px ", marginTop: "10px" }}>
                     <span style={{ fontWeight: "bold" }}>DESCRIPTION : </span>{" "}
-                    In this project I create the food website which is totally
-                    responcive.{" "}
+                    In this project I create the food website.{" "}
                   </p>
+                  <p style={{color:"red",fontSize: "13px"}}>Please open in Laptop - not responsive</p>
 
                   <video
                      autoPlay="true" controls loading="lazy" preload="metadata" loop="1000"
@@ -535,6 +537,7 @@ export default function Projects() {
                     todo-list as well as the can select that list as fevorite as
                     well as complete.{" "}
                   </p>
+                  <p style={{color:"red",fontSize: "13px"}}>Totally Responsive</p>
 
                   <video
                      autoPlay="true" controls loading="lazy" preload="metadata" loop="1000"
@@ -601,6 +604,7 @@ export default function Projects() {
                     the customer and then customer can add the review to that
                     food.{" "}
                   </p>
+                  <p style={{color:"red",fontSize: "13px"}}>Totally Responsive</p>
 
                   <video
                      autoPlay="true" controls loading="lazy" preload="metadata" loop="1000"
