@@ -135,14 +135,14 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     height="350"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
                     
                   >
-                    <source src="/ved/hotelr.mp4" type="video/mp4"></source>
+                    <source src="ved/hotelr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
                   </video>
 
@@ -196,7 +196,7 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
@@ -204,7 +204,7 @@ export default function Projects() {
                     
                   >
                     <source
-                      src="/ved/calculatorr.mp4"
+                      src="ved/calculatorr.mp4"
                       type="video/mp4"
                     ></source>
                     <p>You can see this project video here </p>
@@ -254,14 +254,14 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     height="336"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
                     
                   >
-                    <source src="/ved/foodgrillr.mp4" type="video/mp4"></source>
+                    <source src="ved/foodgrillr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
                   </video>
                   <div className="text-center">
@@ -309,14 +309,14 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
                     
                   >
-                    <source src="/ved/coffeer.mp4" type="video/mp4"></source>
+                    <source src="ved/coffeer.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
                   </video>
                   <div className="text-center">
@@ -379,14 +379,14 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     height="328"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
                     
                   >
-                    <source src="/ved/jobportalr.mp4" type="video/mp4"></source>
+                    <source src="ved/jobportalr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
                   </video>
                   <div className="text-center">
@@ -432,14 +432,14 @@ export default function Projects() {
                   <br />
                   <br />
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     
                     height="330"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3 m"
                   >
-                    <source src="/ved/addc.mp4" type="video/mp4"></source>
+                    <source src="ved/addc.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
                   </video>
                   <div className="text-center">
@@ -492,13 +492,13 @@ export default function Projects() {
                   </div>
 
                   {/* <video
-                        autoPlay="true"  loop="1000"  controls
+                         loop="1000"  controls loading="lazy" preload="metadata"
                         height="350"
                         width="100%"
                         style={{ objectFit: "cover" }}
                         className="mb-3"
                       >
-                        <source src="/ved/hotelr.mp4" type="video/mp4"></source>
+                        <source src="ved/hotelr.mp4" type="video/mp4"></source>
                         <p>You can see this project video here </p>
                       </video> */}
                 </div>
@@ -537,15 +537,13 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     height="338"
                     width="100%"
                     style={{ objectFit: "cover", marginTop: "45px" }}
                     className="mb-3"
-                    
-                    
                   >
-                    <source src="/ved/todo-list.mp4" type="video/mp4"></source>
+                    <source src="ved/todo-list.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
                   </video>
                   <div className="text-center">
@@ -605,14 +603,14 @@ export default function Projects() {
                   </p>
 
                   <video
-                    autoPlay="true"  loop="1000"  controls
+                     loop="1000"  controls loading="lazy" preload="metadata"
                     height="382"
                     width="100%"
                     style={{ objectFit: "cover" }}
                     className="mb-3"
                     
                   >
-                    <source src="/ved/resurentr.mp4" type="video/mp4"></source>
+                    <source src="ved/resurentr.mp4" type="video/mp4"></source>
                     <p>You can see this project video here </p>
                   </video>
                   <div className="text-center">
