@@ -32,7 +32,7 @@ export default function Navigation() {
     localStorage.setItem("theme", newTheme);
   };
 
-  console.log(on);
+  //console.log(on);
 
   const Links = [
     { name: "Home", to: "/", logo: <IoHomeOutline /> },
