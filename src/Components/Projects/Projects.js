@@ -17,20 +17,26 @@ import { CiHome, CiMail } from "react-icons/ci";
 export default function Projects() {
   const [state, setState] = useState("F");
   const [email, setEmail] = useState("");
+
+  const[btn ,setBtn]=useState(true);
+
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
 
   const getEmail = async (e) => {
     e.preventDefault();
+    setBtn(false);
 
     const db = getDatabase(app);
     const newRef = push(ref(db, "pf/email"));
-    set(newRef, {
+    await set(newRef, {
       email: email,
     })
       .then(() => {
-        toast.success("I will contact you shortly, Thank You !!!");
+        toast.success("I will contact you shortly, Thank You !!!",{
+          toastId:"success1"
+        });
         setEmail("");
       })
       .catch((errer) => {
@@ -667,13 +673,15 @@ export default function Projects() {
                   }}
                   required
                 />
-                <button
-                  className="btn btn-primary"
-                  type="submit"
-                  id="button-addon2"
-                >
-                  START A PROJECT
-                </button>
+              {
+                btn===true?<button
+                className="btn btn-primary"
+                type="submit"
+                id="button-addon2"
+              >
+                START A PROJECT
+              </button>:""
+              }
               </div>
             </form>
           </div>

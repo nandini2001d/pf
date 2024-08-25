@@ -144,6 +144,22 @@ export default function About() {
             style={{ width: "100%", height: "100vh" }}
           >
             <img
+              src="/img/p5.jpeg"
+              className="d-block"
+              alt="nandini4"
+              style={{
+                width: "100%",
+                height: "100%",
+                display: "block",
+                objectFit: "cover",
+              }}
+            />
+          </Carousel.Item>
+          <Carousel.Item
+            interval={1000}
+            style={{ width: "100%", height: "100vh" }}
+          >
+            <img
               src="/img/p3.jpeg"
               className="d-block"
               alt="nandini3"

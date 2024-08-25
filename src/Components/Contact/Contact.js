@@ -16,13 +16,15 @@ export default function Contact() {
   const [mobile, setMobile] = useState("");
   const [help, setHelp] = useState("");
 
+  const [btnShow,setBtnShow]=useState(true);
+
   useState(() => {
     window.scroll(0, 0);
   }, []);
 
   const contactData = async (e) => {
     e.preventDefault();
-
+     setBtnShow(false);
     const db = getDatabase(app);
     const newRef = push(ref(db, "pf/contact"));
     set(newRef, {
@@ -33,7 +35,9 @@ export default function Contact() {
     })
       .then(() => {
         toast.success( 
-          "Your message send successfully. I will contact you sortly, Thank You!!"
+          "Your message send successfully. I will contact you sortly, Thank You!!",{
+            toastId:"success1"
+          }
         );
         setName("");
         setEmail("");
@@ -182,9 +186,13 @@ export default function Contact() {
               </div>
 
               <div className="mb-4">
-                <button type="submit" className="btn btn-dark">
-                  SEND MESSAGE
-                </button>
+             {
+              btnShow===true?   <button type="submit" className="btn btn-dark">
+              SEND MESSAGE
+            </button>
+            :
+            ""
+             }
               </div>
             </form>
           </div>
