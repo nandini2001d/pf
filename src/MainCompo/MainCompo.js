@@ -18,6 +18,18 @@ export default function MainCompo() {
       key: uuidv4(),
       content: (
         <Card
+          imagen="/img/certificates/vigo-logo.png"
+          viewImage="/img/certificates/arc.jpeg"
+          duration="6th of Sep 2023 to 6th Mar 2024 "
+          title="Java Fullstack Devloper"
+          text="Internship at Vigo Technoword PVT. LTD. , Nagpur"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
           imagen="/img/certificates/publication1-logo.png"
           viewImage="/img/certificates/publication1.jpeg"
           duration="20th-21st April 2023"

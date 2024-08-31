@@ -55,7 +55,8 @@ export default function Contact() {
       <Navigation />
       {/* navigation ends */}
 
-      <section
+     <section style={{height:"100vh"}}>
+     <section
         style={{ paddingBottom: "50px" }}
       >
         <div className="container mt-5 text-center">
@@ -224,6 +225,7 @@ export default function Contact() {
            </div>
          </div>
       </section>
+     </section>
     </>
   );
 }

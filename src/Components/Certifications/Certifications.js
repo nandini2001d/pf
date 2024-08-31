@@ -32,6 +32,7 @@ export default function Certifications(props) {
   return (
     <>
       <Navigation />
+      <section style={{height:"100vh"}}>
       <section className="w-100%" style={{ paddingBottom: "150px" }}>
         <div
           className=""
@@ -77,6 +78,7 @@ export default function Certifications(props) {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }
