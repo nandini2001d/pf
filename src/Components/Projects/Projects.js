@@ -157,7 +157,7 @@ export default function Projects() {
                     <AnimatedOnScroll animationIn="bounceInLeft">
                       <Link
                         to="https://with-nandini-hotel.netlify.app/"
-                        className="a"
+                       className="a" target="_blanck"
                       >
                         https://with-nandini-hotel.netlify.app/{" "}
                         <FaExternalLinkAlt />
@@ -221,7 +221,7 @@ export default function Projects() {
                     <AnimatedOnScroll animationIn="bounceInLeft">
                       <Link
                         to="https://with-nandini-calculator.netlify.app/"
-                        className="a"
+                       className="a" target="_blanck"
                       >
                         https://with-nandini-calculator.netlify.app/{" "}
                         <FaExternalLinkAlt />
@@ -276,7 +276,7 @@ export default function Projects() {
                     <AnimatedOnScroll animationIn="bounceInLeft">
                       <Link
                         to="https://with-nandini-food.netlify.app/"
-                        className="a"
+                       className="a" target="_blanck"
                       >
                         https://with-nandini-food.netlify.app/{" "}
                         <FaExternalLinkAlt />
@@ -331,7 +331,7 @@ export default function Projects() {
                     <AnimatedOnScroll animationIn="bounceInLeft">
                       <Link
                         to="https://with-nandini-coffee.netlify.app/"
-                        className="a"
+                       className="a" target="_blanck"
                       >
                         https://with-nandini-coffee.netlify.app/{" "}
                         <FaExternalLinkAlt />
@@ -559,7 +559,7 @@ export default function Projects() {
                     <AnimatedOnScroll animationIn="bounceInLeft">
                       <Link
                         to="https://firbaseloginrect.vercel.app/"
-                        className="a"
+                       className="a" target="_blanck"
                       >
                         https://firbaseloginrect.vercel.app/{" "}
                         <FaExternalLinkAlt />

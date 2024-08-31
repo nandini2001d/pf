@@ -37,7 +37,7 @@ export default function Footer() {
                 <IoMail />
               </Link>
               <Link
-                to="https://www.linkedin.com/feed/?nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSr2pNgI8RoObqA%2BVRadxPA%3D%3D"
+                to="https://www.linkedin.com/in/nandini-deshpande/"
                 className="mx-3"
                 style={{ fontSize: "25px" }}
               >

@@ -29,7 +29,29 @@ export default function Projects() {
                   <AnimatedOnScroll animationIn="bounceInLeft">
                     <Link
                       to="https://with-nandini-hotel.netlify.app/ "
-                      className="a"
+                      className="a" target="_blanck"
+                    >
+                      Go to page <FaExternalLinkAlt />
+                    </Link>
+                  </AnimatedOnScroll>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6 main-col pb-3">
+              <div className="card main-card">
+                <div className="card-body main-body p-3">
+                  <h5 style={{ fontWeight: "bold", marginBottom: "20px" }}>
+                    Todo-List
+                  </h5>
+                  <img src="img/todo-list.png"
+                  alt="tod-list"
+                  />
+                  <br />
+                  <br />
+                  <AnimatedOnScroll animationIn="bounceInLeft">
+                    <Link
+                      to="https://firbaseloginrect.vercel.app/"
+                      className="a" target="_blanck"
                     >
                       Go to page <FaExternalLinkAlt />
                     </Link>
@@ -52,7 +74,7 @@ export default function Projects() {
                   <AnimatedOnScroll animationIn="bounceInLeft">
                     <Link
                       to="https://with-nandini-calculator.netlify.app/ "
-                      className="a"
+                      className="a" target="_blanck"
                     >
                       Go to page <FaExternalLinkAlt />
                     </Link>
@@ -60,44 +82,24 @@ export default function Projects() {
                 </div>
               </div>
             </div>
+            
             <div className="col-lg-3 col-sm-6 main-col pb-3">
               <div className="card main-card">
                 <div className="card-body main-body p-3">
-                  <h5 style={{ fontWeight: "bold", marginBottom: "20px" }}>
-                    Food Website
+                  <h5 style={{ fontWeight: "bold", marginBottom: "-8px" }}>
+                    Food Website <p style={{color:"red",fontSize: "11px"}}>Please open in Laptop - not responsive</p>
                   </h5>
                   <img src="img/foodgrill.png"
                   alt="food grill"
                   />
-                  <br />
-                  <br />
+                  
                   <AnimatedOnScroll animationIn="bounceInLeft">
                     <Link
                       to="https://with-nandini-food.netlify.app/ "
-                      className="a"
+                      className="a" target="_blanck"
                     >
-                      Go to page <FaExternalLinkAlt />
-                    </Link>
-                  </AnimatedOnScroll>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 main-col pb-3">
-              <div className="card main-card">
-                <div className="card-body main-body p-3">
-                  <h5 style={{ fontWeight: "bold", marginBottom: "20px" }}>
-                    Coffee website
-                  </h5>
-                  <img src="img/coffee.png"
-                  alt="coffee"
-                  />
-                  <br />
-                  <br />
-                  <AnimatedOnScroll animationIn="bounceInLeft">
-                    <Link
-                      to="https://with-nandini-coffee.netlify.app/"
-                      className="a"
-                    >
+                      <br/>
+                      
                       Go to page <FaExternalLinkAlt />
                     </Link>
                   </AnimatedOnScroll>
