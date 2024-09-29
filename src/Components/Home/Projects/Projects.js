@@ -19,28 +19,6 @@ export default function Projects() {
               <div className="card main-card">
                 <div className="card-body main-body p-3">
                   <h5 style={{ fontWeight: "bold", marginBottom: "20px" }}>
-                    Hotel Website
-                  </h5>
-                  <img src="img/hotelp.png"
-                  alt="hotel"
-                  />
-                  <br />
-                  <br />
-                  <AnimatedOnScroll animationIn="bounceInLeft">
-                    <Link
-                      to="https://with-nandini-hotel.netlify.app/ "
-                      className="a" target="_blanck"
-                    >
-                      Go to page <FaExternalLinkAlt />
-                    </Link>
-                  </AnimatedOnScroll>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 main-col pb-3">
-              <div className="card main-card">
-                <div className="card-body main-body p-3">
-                  <h5 style={{ fontWeight: "bold", marginBottom: "20px" }}>
                     Todo-List
                   </h5>
                   <img src="img/todo-list.png"
@@ -59,7 +37,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-
+               
             <div className="col-lg-3 col-sm-6 main-col pb-3">
               <div className="card main-card">
                 <div className="card-body main-body p-3">
@@ -83,6 +61,32 @@ export default function Projects() {
               </div>
             </div>
             
+
+            <div className="col-lg-3 col-sm-6 main-col pb-3">
+              <div className="card main-card">
+                <div className="card-body main-body p-3">
+                  <h5 style={{ fontWeight: "bold", marginBottom: "20px" }}>
+                    Hotel Website
+                  </h5>
+                  <img src="img/hotelp.png"
+                  alt="hotel"
+                  />
+                  <br />
+                  <br />
+                  <AnimatedOnScroll animationIn="bounceInLeft">
+                    <Link
+                      to="https://with-nandini-hotel.netlify.app/ "
+                      className="a" target="_blanck"
+                    >
+                      Go to page <FaExternalLinkAlt />
+                    </Link>
+                  </AnimatedOnScroll>
+                </div>
+              </div>
+            </div>
+         
+
+        
             <div className="col-lg-3 col-sm-6 main-col pb-3">
               <div className="card main-card">
                 <div className="card-body main-body p-3">
